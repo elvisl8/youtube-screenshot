@@ -7,30 +7,21 @@
   justify-content: center;
 }
 .yts-capture-btn .yts-btn-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  color: #fff;
-  vertical-align: middle;
-  /* Red disc with a white ring, so the button stays visible
-     even on bright video scenes */
-  background: #e62117;
-  border-radius: 50%;
-  box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.9),
-    0 1px 4px rgba(0, 0, 0, 0.55);
-  transition: transform 0.15s ease, background 0.15s ease;
-}
-.yts-capture-btn .yts-btn-icon svg {
-  width: 17px;
-  height: 17px;
+  /* Cover the whole button box, exactly like YouTube's own button
+     icons, so size and position always match the settings button.
+     The red disc is drawn inside the SVG itself. */
+  position: absolute;
+  inset: 0;
   display: block;
 }
-.yts-capture-btn:hover .yts-btn-icon {
-  color: #fff;
-  background: #ff2b1f;
-  transform: scale(1.1);
+.yts-capture-btn .yts-btn-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
+}
+.yts-capture-btn:hover .yts-btn-icon svg {
+  filter: brightness(1.25) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.5));
 }
 
 /* Hide the toast/preview during a "What you see" capture so they don't end up in the image */

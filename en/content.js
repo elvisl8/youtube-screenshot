@@ -437,7 +437,7 @@
 
   // ---------- Inject the player button ----------
   const CAMERA_SVG =
-    '<svg viewBox="0 0 24 24" width="100%" height="100%" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" fill="currentColor" stroke="none" opacity="0.95"/><circle cx="12" cy="13" r="4" fill="#0f0f0f"/></svg>';
+    '<svg viewBox="0 0 24 24" width="100%" height="100%"><circle cx="12" cy="12" r="10.2" fill="#e62117" stroke="#ffffff" stroke-width="1.7"/><g transform="translate(5.1 5.1) scale(0.575)"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" fill="#ffffff"/><circle cx="12" cy="13" r="4.2" fill="#e62117"/></g></svg>';
 
   function createButton(controls) {
     const btn = document.createElement("button");
