@@ -32,6 +32,24 @@ Go to **Releases** and download the build you want:
 3. 点**加载已解压的扩展程序**，选择插件文件夹 — 解压出来的文件夹，或本仓库的 `en` / `zh-CN` 文件夹。
 4. 打开任意 YouTube 视频，播放器右下角会出现相机按钮。
 
+## Safari (Mac)
+
+Safari can't install the zip directly. On a Mac with Xcode (free in the App Store), wrap either language folder with Apple's official converter:
+
+1. Run in Terminal: `xcrun safari-web-extension-converter /path/to/en` (or `zh-CN` for the Chinese version).
+2. Open the generated Xcode project and click Run (▶) once — this registers the extension with Safari.
+3. In Safari, go to Settings → Extensions, enable "YouTube Screenshot", and allow it to access youtube.com.
+
+No paid Apple Developer account is needed for personal use on your own Mac. Full details are in each folder's own README.
+
+Safari 不能直接装 zip。在装了 Xcode 的 Mac 上（App Store 免费下载），用苹果官方转换器把任意一个语言文件夹包一层 App 外壳：
+
+1. 终端运行：`xcrun safari-web-extension-converter /路径/en`（中文版用 `zh-CN` 文件夹）。
+2. 用 Xcode 打开生成的工程，点 Run（▶）运行一次，扩展就注册进 Safari 了。
+3. 打开 Safari → 设置 → 扩展，勾选启用「YouTube Screenshot」，并允许它访问 youtube.com。
+
+个人在自己 Mac 上自用不需要付费开发者账号。详细步骤见各语言文件夹内的 README。
+
 ## Features / 功能
 
 - Three capture entries: player camera button, keyboard shortcut (`Ctrl+Shift+S` by default), toolbar popup — none of them pause playback.
