@@ -28,10 +28,14 @@ Go to **Releases** and download the build you want:
 
 ## Install in Chrome / 在 Chrome 里安装
 
+**English**
+
 1. Unzip the release archive (or clone this repo).
 2. Open `chrome://extensions` and turn on **Developer mode** (top right).
 3. Click **Load unpacked** and select the extension folder — the unzipped release folder, or the `en` / `zh-CN` folder of this repo.
 4. Open any YouTube video: a camera button appears at the bottom right of the player.
+
+**中文**
 
 1. 解压 Release 压缩包（或 clone 本仓库）。
 2. 打开 `chrome://extensions`，打开右上角的**开发者模式**。
