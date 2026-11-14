@@ -2,6 +2,8 @@
 
 A browser extension for capturing the current video frame while watching YouTube (Chrome MV3; the source is also compatible with Safari Web Extensions).
 
+![Toolbar popup](../demo-en.png)
+
 ## Features
 
 - **Three ways to capture, one click each** (none of them pause playback):
