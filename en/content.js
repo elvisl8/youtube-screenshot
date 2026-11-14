@@ -446,10 +446,7 @@
     btn.dataset.ytsInstance = INSTANCE;
     btn.title = "Capture current frame (YouTube Screenshot)";
     btn.setAttribute("aria-label", "Capture current frame");
-    btn.innerHTML =
-      '<span class="yts-btn-icon" style="position:absolute;inset:0;display:block">' +
-      CAMERA_SVG +
-      "</span>";
+    btn.innerHTML = CAMERA_SVG;
     btn.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();

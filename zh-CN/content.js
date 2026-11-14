@@ -339,10 +339,7 @@
     btn.type = "button";
     btn.title = "截取当前帧（YouTube 截屏）";
     btn.setAttribute("aria-label", "截取当前帧");
-    btn.innerHTML =
-      '<span class="yts-btn-icon" style="position:absolute;inset:0;display:block">' +
-      CAMERA_SVG +
-      "</span>";
+    btn.innerHTML = CAMERA_SVG;
     btn.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();
