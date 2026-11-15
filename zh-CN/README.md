@@ -2,7 +2,7 @@
 
 播放 YouTube 时随时截取当前视频帧的浏览器扩展（Chrome MV3，源码同时兼容 Safari Web Extension）。
 
-![工具栏弹窗](../demo-zh-CN.png)
+![设置弹窗](../setting-zh-CN.png)
 
 ## 功能
 

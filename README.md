@@ -4,11 +4,11 @@ Capture the current YouTube video frame in one click, without pausing playback. 
 
 一键截取 YouTube 当前视频帧，不用暂停播放。Chrome MV3（源码同样兼容 Safari Web Extension）。
 
-## Demo / 界面预览
+## Setting / 设置
 
 | 简体中文 | English |
 |---|---|
-| ![中文版弹窗](demo-zh-CN.png) | ![English popup](demo-en.png) |
+| ![中文版设置](setting-zh-CN.png) | ![English settings](setting-en.png) |
 
 ## Two language versions / 两个语言版本
 
