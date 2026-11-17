@@ -1,0 +1,275 @@
+{
+  "extName": {
+    "message": "YouTube Screenshot - Video Frame Capture"
+  },
+  "extDescription": {
+    "message": "One-click YouTube frame capture at native resolution, without pausing. Save as PNG/JPG/WebP or copy to clipboard."
+  },
+  "actionTitle": {
+    "message": "Capture the current YouTube video frame"
+  },
+  "btnClose": {
+    "message": "✕ Close"
+  },
+  "btnSave": {
+    "message": "💾 Save file"
+  },
+  "btnCopy": {
+    "message": "📋 Copy to clipboard"
+  },
+  "previewAlt": {
+    "message": "screenshot preview"
+  },
+  "toastSaved": {
+    "message": "Saved: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastCopied": {
+    "message": "Copied to clipboard. Paste it into a chat or document."
+  },
+  "toastCopyDenied": {
+    "message": "Copy failed (the browser denied clipboard access). Use \"Save file\" instead."
+  },
+  "toastNoVideo": {
+    "message": "No video found (use this on a YouTube watch page)."
+  },
+  "toastNotReady": {
+    "message": "The video hasn't loaded a picture yet. Play it for a moment, then try again."
+  },
+  "metaNative": {
+    "message": "native frame"
+  },
+  "metaSubs": {
+    "message": "with subtitles"
+  },
+  "toastScreenshotSaved": {
+    "message": "Screenshot saved: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastScreenshotCopied": {
+    "message": "Screenshot copied to clipboard ($ARG1$×$ARG2$)",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "toastAutoCopyFailed": {
+    "message": "Auto-copy failed. Preview opened; click \"Save file\"."
+  },
+  "toastCaptureFailed": {
+    "message": "Capture failed: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "btnTitle": {
+    "message": "Capture current frame (YouTube Screenshot)"
+  },
+  "btnAria": {
+    "message": "Capture current frame"
+  },
+  "loading": {
+    "message": "Loading…"
+  },
+  "notSet": {
+    "message": "Not set"
+  },
+  "actPreview": {
+    "message": "Preview first"
+  },
+  "actDownload": {
+    "message": "Save directly"
+  },
+  "actCopy": {
+    "message": "Copy to clipboard"
+  },
+  "popupTitle": {
+    "message": "YouTube Screenshot"
+  },
+  "popupSub": {
+    "message": "On a YouTube watch page, click the button below, press the shortcut, or click the camera button at the bottom right of the player to capture the current frame."
+  },
+  "popupCapture": {
+    "message": "Capture current frame"
+  },
+  "popupShortcut": {
+    "message": "Shortcut"
+  },
+  "popupFormat": {
+    "message": "Image format"
+  },
+  "popupAfter": {
+    "message": "After capture"
+  },
+  "popupChangeShortcut": {
+    "message": "Change shortcut"
+  },
+  "popupSettings": {
+    "message": "Settings"
+  },
+  "popupNote": {
+    "message": "Clean frames are the video's native resolution, without player controls or subtitles. To include subtitles, switch the capture mode to \"What you see\" in Settings."
+  },
+  "popupNotYouTubeOpen": {
+    "message": "This is not a YouTube page. Open a video first."
+  },
+  "popupCapturing": {
+    "message": "Capturing…"
+  },
+  "popupNotYouTube": {
+    "message": "This is not a YouTube page."
+  },
+  "popupCaptureFailed": {
+    "message": "Capture failed: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupUnknownError": {
+    "message": "unknown error"
+  },
+  "popupRequestFailed": {
+    "message": "Request failed: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPageTitle": {
+    "message": "YouTube Screenshot Settings"
+  },
+  "optIntro": {
+    "message": "All three ways to capture work the same: the camera button at the bottom right of the player, the keyboard shortcut, and the button in the toolbar popup. Capturing does not pause playback; the video keeps playing and the image is the frame at the moment you pressed."
+  },
+  "optH1": {
+    "message": "1. Keyboard shortcut"
+  },
+  "optCurrentShortcut": {
+    "message": "Current shortcut: "
+  },
+  "optShortcutNotSet": {
+    "message": "Not set (set it on Chrome's shortcuts page)"
+  },
+  "optShortcutHelp": {
+    "message": "Chrome doesn't let extensions change shortcuts directly. Change it on Chrome's own page: click the button below → find \"YouTube Screenshot\" → click the pencil icon → press the new key combination."
+  },
+  "optOpenShortcuts": {
+    "message": "Open Chrome's shortcuts page"
+  },
+  "optH2": {
+    "message": "2. Capture mode"
+  },
+  "optCleanTitle": {
+    "message": "Clean frame (recommended)"
+  },
+  "optCleanDesc": {
+    "message": " — the video's native resolution (1080p/4K stays at its original size), with no player controls, subtitles or mouse cursor. Highest quality."
+  },
+  "optCleanFallback": {
+    "message": "If the browser blocks frame capture for a particular video, it automatically falls back to the \"What you see\" mode."
+  },
+  "optVisibleTitle": {
+    "message": "What you see"
+  },
+  "optVisibleDesc": {
+    "message": " — captures what is actually on screen, so subtitles are included, but resolution is limited by the window size; it works best in fullscreen."
+  },
+  "optH3": {
+    "message": "3. After capturing"
+  },
+  "optPreviewDesc": {
+    "message": " — shows a preview, then choose \"Save file\" or \"Copy to clipboard\". Not happy with it? Close it and capture again, with no wasted files."
+  },
+  "optDownloadDesc": {
+    "message": " — downloads straight to your browser's download folder on each press; good for capturing many frames."
+  },
+  "optCopyDesc": {
+    "message": " — copies on each press so you can paste straight into a chat, document or email (if copying fails it opens the preview instead, so the image isn't lost)."
+  },
+  "optH4": {
+    "message": "4. Image format"
+  },
+  "optFmtPng": {
+    "message": "PNG (lossless, larger files)"
+  },
+  "optFmtJpeg": {
+    "message": "JPG (small, universal)"
+  },
+  "optFmtWebp": {
+    "message": "WebP (smallest)"
+  },
+  "optQuality": {
+    "message": "JPG / WebP quality: "
+  },
+  "optFileNamesLead": {
+    "message": "File names are generated automatically: "
+  },
+  "optFilenamePattern": {
+    "message": "video-title_mm-ss_date-time.ext"
+  },
+  "optFileNamesEg": {
+    "message": ", e.g. "
+  },
+  "optFilenameExample": {
+    "message": "Some Tutorial_12-34_20261114_145501.png"
+  },
+  "optFileNamesTail": {
+    "message": ". Copying to the clipboard always uses PNG (a browser clipboard limitation), regardless of the format chosen here."
+  },
+  "optSave": {
+    "message": "Save settings"
+  },
+  "optSaved": {
+    "message": "✓ Saved"
+  },
+  "optNotesH": {
+    "message": "Notes and limits"
+  },
+  "optDrmTitle": {
+    "message": "DRM-protected video can't be captured: "
+  },
+  "optDrmDesc": {
+    "message": "for DRM content such as Netflix, Disney+ and paid YouTube movies, the browser blacks out the picture. This is an industry-wide restriction that no extension can get around. Regular YouTube videos (including 4K) are not affected."
+  },
+  "optSubsTitle": {
+    "message": "Subtitles: "
+  },
+  "optSubsDesc": {
+    "message": "clean frames never contain subtitles (they are overlaid by the web page and are not part of the video picture). To include subtitles, use \"What you see\", turn subtitles on, and capture in fullscreen."
+  },
+  "optShorts": {
+    "message": "Shorts pages work too (native vertical resolution)."
+  },
+  "optPaused": {
+    "message": "You can capture while paused; you get the frame that is on screen."
+  },
+  "optSafari": {
+    "message": "Safari: this extension is standard Web Extension source and can be converted with Xcode's safari-web-extension-converter; see the Safari section of the project README."
+  },
+  "optLangH": {
+    "message": "Interface language"
+  },
+  "optLangAuto": {
+    "message": "Follow browser language"
+  },
+  "optLangDesc": {
+    "message": "Applies immediately to the settings page, the toolbar popup and in-page messages. The extension name shown on Chrome's extensions page still follows the browser language (a Chrome limitation)."
+  }
+}

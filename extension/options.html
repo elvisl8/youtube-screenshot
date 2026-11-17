@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="color-scheme" content="light dark">
+<title data-i18n="optPageTitle"></title>
+<link rel="stylesheet" href="theme.css">
+<link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <h1>📸 <span data-i18n="optPageTitle"></span></h1>
+  <p class="desc" data-i18n="optIntro"></p>
+
+  <h2 data-i18n="optLangH"></h2>
+  <label class="radio"><input type="radio" name="lang" value="auto"> <span data-i18n="optLangAuto"></span></label>
+  <label class="radio"><input type="radio" name="lang" value="zh_CN"> <span>简体中文</span></label>
+  <label class="radio"><input type="radio" name="lang" value="en"> <span>English</span></label>
+  <p class="desc" data-i18n="optLangDesc"></p>
+
+  <h2 data-i18n="optH1"></h2>
+  <p><span data-i18n="optCurrentShortcut"></span><span class="kbd" id="shortcut" data-i18n="loading"></span></p>
+  <p class="desc" data-i18n="optShortcutHelp"></p>
+  <button class="ghost" id="openShortcuts" data-i18n="optOpenShortcuts"></button>
+
+  <h2 data-i18n="optH2"></h2>
+  <label class="radio"><input type="radio" name="mode" value="clean"> <span><b data-i18n="optCleanTitle"></b><span data-i18n="optCleanDesc"></span><br><span class="desc" data-i18n="optCleanFallback"></span></span></label>
+  <label class="radio"><input type="radio" name="mode" value="visible"> <span><b data-i18n="optVisibleTitle"></b><span data-i18n="optVisibleDesc"></span></span></label>
+
+  <h2 data-i18n="optH3"></h2>
+  <label class="radio"><input type="radio" name="act" value="preview"> <span><b data-i18n="actPreview"></b><span data-i18n="optPreviewDesc"></span></span></label>
+  <label class="radio"><input type="radio" name="act" value="download"> <span><b data-i18n="actDownload"></b><span data-i18n="optDownloadDesc"></span></span></label>
+  <label class="radio"><input type="radio" name="act" value="copy"> <span><b data-i18n="actCopy"></b><span data-i18n="optCopyDesc"></span></span></label>
+
+  <h2 data-i18n="optH4"></h2>
+  <p>
+    <select id="format">
+      <option value="png" data-i18n="optFmtPng"></option>
+      <option value="jpeg" data-i18n="optFmtJpeg"></option>
+      <option value="webp" data-i18n="optFmtWebp"></option>
+    </select>
+    <span class="desc" style="margin-left:12px"><span data-i18n="optQuality"></span><input type="range" id="quality" min="50" max="100" step="1" value="92" style="vertical-align:middle"> <span id="qVal">92%</span></span>
+  </p>
+  <p class="desc"><span data-i18n="optFileNamesLead"></span><code data-i18n="optFilenamePattern"></code><span data-i18n="optFileNamesEg"></span><code data-i18n="optFilenameExample"></code><span data-i18n="optFileNamesTail"></span></p>
+
+  <div style="margin-top:20px">
+    <button class="primary" id="save" data-i18n="optSave"></button><span id="saved" data-i18n="optSaved"></span>
+  </div>
+
+  <h2 data-i18n="optNotesH"></h2>
+  <div class="warn">
+    <b data-i18n="optDrmTitle"></b><span data-i18n="optDrmDesc"></span><br>
+    <b data-i18n="optSubsTitle"></b><span data-i18n="optSubsDesc"></span>
+  </div>
+  <ul>
+    <li data-i18n="optShorts"></li>
+    <li data-i18n="optPaused"></li>
+    <li data-i18n="optSafari"></li>
+  </ul>
+
+<script src="lang.js"></script>
+<script src="i18n.js"></script>
+<script src="options.js"></script>
+</body>
+</html>

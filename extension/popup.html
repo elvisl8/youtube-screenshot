@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="theme.css">
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>📸 <span data-i18n="popupTitle"></span></h1>
+  <div class="sub" data-i18n="popupSub"></div>
+
+  <button id="captureBtn" data-i18n="popupCapture"></button>
+  <div id="msg"></div>
+
+  <div class="row"><span data-i18n="popupShortcut"></span><span class="kbd" id="shortcut" data-i18n="loading"></span></div>
+  <div class="row"><span data-i18n="popupFormat"></span><span id="fmt">PNG</span></div>
+  <div class="row"><span data-i18n="popupAfter"></span><span id="act"></span></div>
+
+  <div class="links">
+    <button id="openShortcuts" data-i18n="popupChangeShortcut"></button>
+    <button id="openOptions" data-i18n="popupSettings"></button>
+  </div>
+
+  <div class="note" data-i18n="popupNote"></div>
+
+<script src="lang.js"></script>
+<script src="i18n.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>

@@ -1,56 +1,79 @@
-# YouTube 截屏 — Video Screenshot
+# YouTube 截屏 — Video Frame Capture
 
 [English](README.md) | **简体中文**
 
-一键截取 YouTube 当前视频帧，不用暂停播放。Chrome MV3（源码同样兼容 Safari Web Extension）。
-
-## 设置
+一键截取 YouTube 当前视频帧，不用暂停播放。Chrome MV3（源码同样兼容 Safari Web Extension）。所有语言共用同一个版本：界面语言跟随浏览器（已内置英文和简体中文）。
 
 ![中文版设置](setting-zh-CN.png)
 
-## 两个语言版本
-
-| 文件夹 | 界面语言 |
-|---|---|
-| `en/` | 英文 (English) |
-| `zh-CN/` | 简体中文 |
-
-两版功能完全相同，每个文件夹都是完整独立的插件，内有各自语言的详细说明。
-
 ## 下载
 
-到 **Releases** 下载需要的版本：
-
-- `YouTube-Screenshot-v1.0-EN.zip` — 英文
-- `YouTube-Screenshot-v1.0-CN.zip` — 简体中文
+到 **Releases** 下载 `YouTube-Screenshot-vX.Y.Z.zip`。
 
 ## 在 Chrome 里安装
 
-1. 解压 Release 压缩包（或 clone 本仓库）。
+1. 解压 Release 压缩包（或 clone 本仓库，插件就是 `extension/` 文件夹）。
 2. 打开 `chrome://extensions`，打开右上角的**开发者模式**。
-3. 点**加载已解压的扩展程序**，选择插件文件夹 — 解压出来的文件夹，或本仓库的 `en` / `zh-CN` 文件夹。
-4. 打开任意 YouTube 视频，播放器右下角会出现相机按钮。
-
-## Safari (Mac)
-
-Safari 不能直接装 zip。在装了 Xcode 的 Mac 上（App Store 免费下载），用苹果官方转换器把任意一个语言文件夹包一层 App 外壳：
-
-1. 终端运行：`xcrun safari-web-extension-converter /路径/en`（中文版用 `zh-CN` 文件夹）。
-2. 用 Xcode 打开生成的工程，点 Run（▶）运行一次，扩展就注册进 Safari 了。
-3. 打开 Safari → 设置 → 扩展，勾选启用「YouTube Screenshot」，并允许它访问 youtube.com。
-
-个人在自己 Mac 上自用不需要付费开发者账号。详细步骤见各语言文件夹内的 README。
+3. 点**加载已解压的扩展程序**，选择解压出来的文件夹（或 `extension/`）。
+4. 打开任意 YouTube 视频，播放器右下角（设置齿轮左边）会出现相机按钮。建议把插件固定到工具栏。
 
 ## 功能
 
-- 三种截屏入口：播放器相机按钮、快捷键（默认 `Ctrl+Shift+S`）、工具栏弹窗 — 都不暂停播放。
-- 干净帧模式按原生分辨率抓帧，无控制条、无字幕；「所见即所得」模式带字幕。
-- 截后可选：先预览、直接保存、或复制到剪贴板。PNG / JPG / WebP。
-- 支持 Shorts 和暂停状态；标签页在装插件之前就打开了也能直接截，脚本会自动注入，不用刷新页面。
+- **三种截屏入口**，都不暂停播放：
+  1. 播放器右下角的相机按钮
+  2. 快捷键，默认 `Ctrl+Shift+S`（Mac：`Control+Shift+S`），可在 `chrome://extensions/shortcuts` 修改
+  3. 点工具栏插件图标 →「截取当前帧」
+- **两种画面模式：**
+  - *干净帧*（默认）：canvas 直抓视频帧，**原生分辨率**（视频是 4K 就截 4K），无控制条、无字幕、无鼠标。个别视频抓帧被拦截时自动回退到「所见即所得」。
+  - *所见即所得*：拍当前视口再按视频位置裁剪，**字幕一起截进去**，分辨率受窗口大小限制（全屏截最佳）。
+- **截后动作：**先预览（再选保存/复制）、直接保存、或复制到剪贴板（复制失败会自动弹出预览，不丢图）。
+- **格式：**PNG / JPG / WebP，质量可调；复制到剪贴板统一用 PNG。
+- **文件名自动生成：**`视频标题_时分秒_日期时间.扩展名`，如 `某某教程_12-34_20261114_145501.png`。
+- 支持 Shorts 和暂停状态；装插件之前就打开的标签页也能直接截，不用刷新。
+- 弹窗和设置页支持浅色/深色主题（跟随系统）。
+
+插件只在 `https://www.youtube.com/*` 上运行。
 
 ## 限制
 
-DRM 保护的视频（Netflix、Disney+、YouTube 付费电影）会被浏览器本身黑屏，任何插件都截不了；普通 YouTube 视频不受影响。字幕是网页浮层、不属于视频画面本身，想带字幕请用「所见即所得」模式。
+- **DRM 内容截不了。**Netflix、Disney+、YouTube 付费电影会被浏览器本身黑屏，任何插件都绕不过去；普通 YouTube 视频不受影响。
+- **字幕**是网页浮层，不属于视频画面，所以干净帧不带字幕；想带字幕请用「所见即所得」。
+- 干净帧清晰度取决于视频当前实际加载的分辨率：播放器画质选 1080p 才能截到 1080p；截重要画面前先把画质调好并等它缓冲。
+
+## Safari (Mac)
+
+Safari 不能直接装 zip。在装了 Xcode 的 Mac 上（App Store 免费下载），用苹果官方转换器给 `extension/` 文件夹包一层 App 外壳：
+
+1. 终端运行 `xcrun safari-web-extension-converter /路径/extension`（语言选 Swift，名称随意）。
+2. 用 Xcode 打开生成的工程，点 Run（▶）运行一次，扩展就注册进 Safari 了。
+3. 打开 Safari → 设置 → 扩展，勾选启用「YouTube Screenshot」，并允许它访问 youtube.com。
+
+个人在自己 Mac 上自用不需要付费开发者账号。Safari 里快捷键以 Safari 的扩展设置为准，不生效时用播放器按钮即可。
+
+## 项目结构
+
+```
+extension/            Chrome 扩展本体（加载这个文件夹）
+  manifest.json       MV3 配置，版本号只在这里写一次
+  _locales/           en、zh_CN 文案（chrome.i18n）
+  content.js/.css     播放器按钮、抓帧、预览浮层、提示
+  background.js       快捷键转发 + captureVisibleTab 兜底截图
+  popup.*, options.*  工具栏弹窗与设置页
+  i18n.js, theme.css  翻译辅助与共用的浅色/深色主题
+scripts/check.mjs     manifest / 版本 / 多语言 / 域名匹配检查
+.github/workflows/    CI + 自动发布
+CHANGELOG.md          更新日志（同时作为 GitHub Release 说明）
+```
+
+### 添加语言
+
+把 `extension/_locales/en` 复制为 `extension/_locales/<语言代码>`（如 `de`、`pt_BR`），翻译 `message` 的内容（保留 `$ARG1$` 这类占位符），然后运行 `node scripts/check.mjs`。缺少 key 或占位符不一致时会报错。
+
+### 发布新版本
+
+1. 修改 `extension/manifest.json` 里的 `version`，并在 `CHANGELOG.md` 加一节 `## [x.y.z]`。
+2. 提交后执行 `git tag vx.y.z && git push --tags`。
+3. 工作流会先跑检查，再打包 `YouTube-Screenshot-vx.y.z.zip` 并发布 Release；tag 与 manifest 版本号不一致时会拒绝发布。
 
 ## 许可证
 

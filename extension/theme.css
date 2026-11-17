@@ -1,0 +1,52 @@
+/* Shared light/dark theme for the popup and options page.
+   Follows the system setting via prefers-color-scheme. */
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --fg: #1f2328;
+  --muted: #666666;
+  --faint: #888888;
+  --line: #eeeeee;
+  --kbd-bg: #f0f0f0;
+  --kbd-border: #d0d0d0;
+  --btn-bg: #ffffff;
+  --btn-border: #dddddd;
+  --btn-hover: #f6f6f6;
+  --code-bg: #f3f3f3;
+  --warn-bg: #fff8e5;
+  --warn-border: #f0d98c;
+  --ok: #1e8e3e;
+  --err: #c0392b;
+  --accent: #cc0000;
+  --accent-hover: #ee0000;
+  --disabled-bg: #cccccc;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1f1f1f;
+    --fg: #e8eaed;
+    --muted: #a8adb3;
+    --faint: #8b9096;
+    --line: #373737;
+    --kbd-bg: #2d2d2d;
+    --kbd-border: #4a4a4a;
+    --btn-bg: #2a2a2a;
+    --btn-border: #444444;
+    --btn-hover: #353535;
+    --code-bg: #2d2d2d;
+    --warn-bg: #3a3320;
+    --warn-border: #6b5a22;
+    --ok: #6dd58c;
+    --err: #f28b82;
+    --accent: #d93025;
+    --accent-hover: #ea4335;
+    --disabled-bg: #444444;
+  }
+}
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); }
+.kbd { background: var(--kbd-bg); border: 1px solid var(--kbd-border); border-bottom-width: 2px; border-radius: 5px; font-family: Consolas, monospace; white-space: nowrap; }
+.ok { color: var(--ok); }
+.err { color: var(--err); }

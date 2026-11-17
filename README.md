@@ -2,55 +2,78 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-Capture the current YouTube video frame in one click, without pausing playback. Chrome MV3 (the source is also compatible with Safari Web Extensions).
-
-## Settings
+Capture the current YouTube video frame in one click, without pausing playback. Chrome MV3 (the source is also compatible with Safari Web Extensions). One build for every language: the interface follows your browser language (English and 简体中文 included).
 
 ![English settings](setting-en.png)
 
-## Two language versions
-
-| Folder | UI language |
-|---|---|
-| `en/` | English |
-| `zh-CN/` | 简体中文 (Simplified Chinese) |
-
-Both versions have identical features; each folder is a complete, self-contained extension with its own detailed README.
-
 ## Download
 
-Go to **Releases** and download the build you want:
-
-- `YouTube-Screenshot-v1.0-EN.zip` — English
-- `YouTube-Screenshot-v1.0-CN.zip` — 简体中文 (Simplified Chinese)
+Go to **Releases** and download `YouTube-Screenshot-vX.Y.Z.zip`.
 
 ## Install in Chrome
 
-1. Unzip the release archive (or clone this repo).
+1. Unzip the release archive (or clone this repo; the extension is the `extension/` folder).
 2. Open `chrome://extensions` and turn on **Developer mode** (top right).
-3. Click **Load unpacked** and select the extension folder — the unzipped release folder, or the `en` / `zh-CN` folder of this repo.
-4. Open any YouTube video: a camera button appears at the bottom right of the player.
-
-## Safari (Mac)
-
-Safari can't install the zip directly. On a Mac with Xcode (free in the App Store), wrap either language folder with Apple's official converter:
-
-1. Run in Terminal: `xcrun safari-web-extension-converter /path/to/en` (or `zh-CN` for the Chinese version).
-2. Open the generated Xcode project and click Run (▶) once — this registers the extension with Safari.
-3. In Safari, go to Settings → Extensions, enable "YouTube Screenshot", and allow it to access youtube.com.
-
-No paid Apple Developer account is needed for personal use on your own Mac. Full details are in each folder's own README.
+3. Click **Load unpacked** and select the unzipped folder (or `extension/`).
+4. Open any YouTube video: a camera button appears at the bottom right of the player (left of the settings gear). Pinning the extension to the toolbar is recommended.
 
 ## Features
 
-- Three capture entries: player camera button, keyboard shortcut (`Ctrl+Shift+S` by default), toolbar popup — none of them pause playback.
-- Clean-frame mode grabs the native resolution with no player controls or subtitles; "what you see" mode includes subtitles.
-- After capture: preview, save directly, or copy to clipboard. PNG / JPG / WebP.
-- Works on Shorts and while paused. If the tab was opened before the extension was installed, the script injects itself automatically — no page refresh needed.
+- **Three capture entries**, none of which pause playback:
+  1. The camera button at the bottom right of the player
+  2. A keyboard shortcut, `Ctrl+Shift+S` by default (Mac: `Control+Shift+S`), changeable at `chrome://extensions/shortcuts`
+  3. The toolbar icon → "Capture current frame"
+- **Two capture modes:**
+  - *Clean frame* (default): draws the video frame to a canvas at its **native resolution** (a 4K video gives a 4K image), with no player controls, subtitles or cursor. If the browser blocks this for a particular video, it falls back to "What you see" automatically.
+  - *What you see*: screenshots the viewport and crops it to the video, so **subtitles are included**. Resolution is limited by the window size (fullscreen is best).
+- **After capture:** preview first (then save or copy), save directly, or copy to the clipboard (if copying fails, the preview opens so the image isn't lost).
+- **Formats:** PNG / JPG / WebP with adjustable quality. Clipboard copies are always PNG.
+- **Automatic file names:** `video-title_mm-ss_date-time.ext`, e.g. `Some Tutorial_12-34_20261114_145501.png`.
+- Works on Shorts and while paused. Tabs opened before the extension was installed work without a refresh.
+- Light and dark theme for the popup and settings page (follows the system).
+
+The extension only runs on `https://www.youtube.com/*`.
 
 ## Limits
 
-DRM-protected video (Netflix, Disney+, paid YouTube movies) is blacked out by the browser itself — no extension can capture it. Regular YouTube videos are unaffected. Subtitles are a page overlay, not part of the video picture; use "what you see" mode if you want them in the image.
+- **DRM content can't be captured.** Netflix, Disney+ and paid YouTube movies are blacked out by the browser itself; no extension can get around that. Regular YouTube videos are unaffected.
+- **Subtitles** are a page overlay, not part of the video picture, so clean frames don't contain them. Use "What you see" for subtitles.
+- A clean frame is only as sharp as the quality the video is actually loaded at: pick 1080p in the player to get 1080p, and let it buffer before capturing something important.
+
+## Safari (Mac)
+
+Safari can't install a zip directly. On a Mac with Xcode (free in the App Store), wrap the `extension/` folder with Apple's converter:
+
+1. Run `xcrun safari-web-extension-converter /path/to/extension` (choose Swift and any name).
+2. Open the generated Xcode project and click Run (▶) once; this registers the extension with Safari.
+3. In Safari, go to Settings → Extensions, enable "YouTube Screenshot", and allow it to access youtube.com.
+
+No paid developer account is needed for personal use on your own Mac. In Safari, shortcuts follow Safari's extension settings; if the shortcut doesn't work, use the player button.
+
+## Project layout
+
+```
+extension/            the Chrome extension (load this folder)
+  manifest.json       MV3 config — the single place the version number lives
+  _locales/           en, zh_CN message files (chrome.i18n)
+  content.js/.css     player button, frame capture, preview overlay, toasts
+  background.js       shortcut forwarding + captureVisibleTab fallback
+  popup.*, options.*  toolbar popup and settings page
+  i18n.js, theme.css  translation helper and shared light/dark theme
+scripts/check.mjs     manifest / version / locale / host-pattern checks
+.github/workflows/    CI + automated release
+CHANGELOG.md          release notes (also used as the GitHub release body)
+```
+
+### Adding a language
+
+Copy `extension/_locales/en` to `extension/_locales/<code>` (e.g. `de`, `pt_BR`), translate the `message` values (keep `$ARG1$`-style placeholders), then run `node scripts/check.mjs`. It fails if a key is missing or a placeholder differs.
+
+### Releasing
+
+1. Bump `version` in `extension/manifest.json` and add a `## [x.y.z]` section to `CHANGELOG.md`.
+2. Commit, then `git tag vx.y.z && git push --tags`.
+3. The workflow runs the checks, builds `YouTube-Screenshot-vx.y.z.zip` and publishes the release. It refuses to release if the tag and the manifest version differ.
 
 ## License
 
