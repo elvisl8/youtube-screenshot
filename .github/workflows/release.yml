@@ -1,0 +1,41 @@
+name: CI and release
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # Validates manifest, locales, host patterns, and (on tags) version == tag
+      - run: node scripts/check.mjs
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build zip and release notes
+        run: |
+          VER="${GITHUB_REF_NAME#v}"
+          (cd extension && zip -r -X "../YouTube-Screenshot-v${VER}.zip" . -x '.*' -x '*/.*')
+          # Release notes = the matching "## [x.y.z]" section of CHANGELOG.md
+          awk -v hdr="## [${VER}]" 'index($0,"## [")==1 { f = (index($0,hdr)==1); next } f' CHANGELOG.md > release-notes.md
+          test -s release-notes.md
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: YouTube-Screenshot-v*.zip
+          body_path: release-notes.md
