@@ -10,7 +10,7 @@ function t(key, ...subs) {
 }
 
 function localizePage() {
-  document.documentElement.lang = ytsLang === "zh_CN" ? "zh-CN" : "en";
+  document.documentElement.lang = ytsLang.replace("_", "-");
   for (const el of document.querySelectorAll("[data-i18n]")) {
     el.textContent = t(el.dataset.i18n);
   }

@@ -1,0 +1,275 @@
+{
+  "extName": {
+    "message": "YouTube Screenshot - 動画フレーム撮影"
+  },
+  "extDescription": {
+    "message": "YouTubeのフレームを再生を止めずにワンクリックで撮影、解像度はそのまま。PNG/JPG/WebPで保存、またはクリップボードへコピー。"
+  },
+  "actionTitle": {
+    "message": "現在のYouTubeフレームを撮影"
+  },
+  "btnClose": {
+    "message": "✕ 閉じる"
+  },
+  "btnSave": {
+    "message": "💾 ファイルを保存"
+  },
+  "btnCopy": {
+    "message": "📋 クリップボードにコピー"
+  },
+  "previewAlt": {
+    "message": "スクリーンショットのプレビュー"
+  },
+  "toastSaved": {
+    "message": "保存しました：$ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastCopied": {
+    "message": "クリップボードにコピーしました。チャットやドキュメントに貼り付けできます。"
+  },
+  "toastCopyDenied": {
+    "message": "コピーに失敗しました（ブラウザがクリップボードへのアクセスを拒否）。「ファイルを保存」を使ってください。"
+  },
+  "toastNoVideo": {
+    "message": "動画が見つかりません（YouTubeの再生ページで使ってください）。"
+  },
+  "toastNotReady": {
+    "message": "動画の映像がまだ読み込まれていません。少し再生してからもう一度お試しください。"
+  },
+  "metaNative": {
+    "message": "ネイティブフレーム"
+  },
+  "metaSubs": {
+    "message": "字幕付き"
+  },
+  "toastScreenshotSaved": {
+    "message": "スクリーンショットを保存しました：$ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastScreenshotCopied": {
+    "message": "スクリーンショットをクリップボードにコピーしました（$ARG1$×$ARG2$）",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "toastAutoCopyFailed": {
+    "message": "自動コピーに失敗しました。プレビューを開いたので「ファイルを保存」をクリックしてください。"
+  },
+  "toastCaptureFailed": {
+    "message": "撮影に失敗しました：$ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "btnTitle": {
+    "message": "現在のフレームを撮影（YouTube Screenshot）"
+  },
+  "btnAria": {
+    "message": "現在のフレームを撮影"
+  },
+  "loading": {
+    "message": "読み込み中…"
+  },
+  "notSet": {
+    "message": "未設定"
+  },
+  "actPreview": {
+    "message": "まずプレビュー"
+  },
+  "actDownload": {
+    "message": "直接保存"
+  },
+  "actCopy": {
+    "message": "クリップボードにコピー"
+  },
+  "popupTitle": {
+    "message": "YouTube Screenshot"
+  },
+  "popupSub": {
+    "message": "YouTubeの再生ページで、下のボタンをクリックするか、ショートカットを押すか、プレーヤー右下のカメラボタンをクリックすると、現在のフレームを撮影できます。"
+  },
+  "popupCapture": {
+    "message": "現在のフレームを撮影"
+  },
+  "popupShortcut": {
+    "message": "ショートカット"
+  },
+  "popupFormat": {
+    "message": "画像形式"
+  },
+  "popupAfter": {
+    "message": "撮影後"
+  },
+  "popupChangeShortcut": {
+    "message": "ショートカットを変更"
+  },
+  "popupSettings": {
+    "message": "設定"
+  },
+  "popupNote": {
+    "message": "クリーンフレームは動画本来の解像度で、プレーヤーのコントロールや字幕は含まれません。字幕を含めるには、設定で撮影モードを「見たまま」に切り替えてください。"
+  },
+  "popupNotYouTubeOpen": {
+    "message": "これはYouTubeのページではありません。まず動画を開いてください。"
+  },
+  "popupCapturing": {
+    "message": "撮影中…"
+  },
+  "popupNotYouTube": {
+    "message": "これはYouTubeのページではありません。"
+  },
+  "popupCaptureFailed": {
+    "message": "撮影に失敗しました：$ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupUnknownError": {
+    "message": "不明なエラー"
+  },
+  "popupRequestFailed": {
+    "message": "リクエストに失敗しました：$ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPageTitle": {
+    "message": "YouTube Screenshot 設定"
+  },
+  "optIntro": {
+    "message": "3つの撮影方法はどれも同じです：プレーヤー右下のカメラボタン、キーボードショートカット、ツールバーポップアップのボタン。撮影しても再生は止まらず、押した瞬間のフレームが画像になります。"
+  },
+  "optH1": {
+    "message": "1. キーボードショートカット"
+  },
+  "optCurrentShortcut": {
+    "message": "現在のショートカット："
+  },
+  "optShortcutNotSet": {
+    "message": "未設定（Chromeのショートカットページで設定してください）"
+  },
+  "optShortcutHelp": {
+    "message": "Chromeでは拡張機能がショートカットを直接変更できません。Chrome自身のページで変更してください：下のボタンをクリック →「YouTube Screenshot」を探す → 鉛筆アイコンをクリック → 新しいキー組み合わせを押します。"
+  },
+  "optOpenShortcuts": {
+    "message": "Chromeのショートカットページを開く"
+  },
+  "optH2": {
+    "message": "2. 撮影モード"
+  },
+  "optCleanTitle": {
+    "message": "クリーンフレーム（推奨）"
+  },
+  "optCleanDesc": {
+    "message": " — 動画本来の解像度（1080p/4Kはそのままのサイズ）で、プレーヤーのコントロール、字幕、マウスカーソルは含まれません。最高画質です。"
+  },
+  "optCleanFallback": {
+    "message": "ブラウザが特定の動画のフレーム撮影をブロックした場合は、自動的に「見たまま」モードに切り替わります。"
+  },
+  "optVisibleTitle": {
+    "message": "見たまま"
+  },
+  "optVisibleDesc": {
+    "message": " — 実際に画面に表示されているものを撮影するので字幕も含まれますが、解像度はウィンドウサイズに制限されます。全画面表示で最適です。"
+  },
+  "optH3": {
+    "message": "3. 撮影後"
+  },
+  "optPreviewDesc": {
+    "message": " — プレビューを表示し、「ファイルを保存」か「クリップボードにコピー」を選びます。気に入らなければ閉じて撮り直せます。無駄なファイルはできません。"
+  },
+  "optDownloadDesc": {
+    "message": " — 押すたびにブラウザのダウンロードフォルダへ直接ダウンロードします。たくさん撮影するのに向いています。"
+  },
+  "optCopyDesc": {
+    "message": " — 押すたびにコピーし、チャットやドキュメント、メールへそのまま貼れます（コピーに失敗した場合は代わりにプレビューが開くので、画像が失われることはありません）。"
+  },
+  "optH4": {
+    "message": "4. 画像形式"
+  },
+  "optFmtPng": {
+    "message": "PNG（可逆圧縮、ファイルは大きめ）"
+  },
+  "optFmtJpeg": {
+    "message": "JPG（小さく、汎用的）"
+  },
+  "optFmtWebp": {
+    "message": "WebP（最小）"
+  },
+  "optQuality": {
+    "message": "JPG / WebP の画質："
+  },
+  "optFileNamesLead": {
+    "message": "ファイル名は自動生成されます："
+  },
+  "optFilenamePattern": {
+    "message": "video-title_mm-ss_date-time.ext"
+  },
+  "optFileNamesEg": {
+    "message": "、例："
+  },
+  "optFilenameExample": {
+    "message": "Some Tutorial_12-34_20261114_145501.png"
+  },
+  "optFileNamesTail": {
+    "message": "。クリップボードへのコピーは、ここで選んだ形式に関係なく常にPNGになります（ブラウザのクリップボードの制限）。"
+  },
+  "optSave": {
+    "message": "設定を保存"
+  },
+  "optSaved": {
+    "message": "✓ 保存しました"
+  },
+  "optNotesH": {
+    "message": "注意と制限"
+  },
+  "optDrmTitle": {
+    "message": "DRM保護された動画は撮影できません："
+  },
+  "optDrmDesc": {
+    "message": "Netflix、Disney+、YouTubeの有料映画などのDRMコンテンツは、ブラウザが画面を真っ黒にします。これは業界共通の制限で、どの拡張機能でも回避できません。通常のYouTube動画（4Kを含む）は影響を受けません。"
+  },
+  "optSubsTitle": {
+    "message": "字幕："
+  },
+  "optSubsDesc": {
+    "message": "クリーンフレームに字幕は含まれません（字幕はウェブページが重ねて表示しているもので、動画の映像の一部ではありません）。字幕を含めるには「見たまま」を使い、字幕をオンにして全画面で撮影してください。"
+  },
+  "optShorts": {
+    "message": "Shortsページでも撮影できます（縦向きの本来の解像度）。"
+  },
+  "optPaused": {
+    "message": "一時停止中でも撮影でき、止まっているフレームが得られます。"
+  },
+  "optSafari": {
+    "message": "Safari版：この拡張機能は標準のWeb Extensionソースで、Xcodeのsafari-web-extension-converterで変換できます。手順はプロジェクトREADMEのSafariの節をご覧ください。"
+  },
+  "optLangH": {
+    "message": "インターフェース言語"
+  },
+  "optLangAuto": {
+    "message": "ブラウザの言語に従う"
+  },
+  "optLangDesc": {
+    "message": "設定ページ、ツールバーポップアップ、ページ内メッセージにすぐ反映されます。Chromeの拡張機能ページに表示される拡張機能名はブラウザの言語に従います（Chromeの制限）。"
+  }
+}

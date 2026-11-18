@@ -1,0 +1,275 @@
+{
+  "extName": {
+    "message": "YouTube Screenshot - Capture d'images"
+  },
+  "extDescription": {
+    "message": "Capture d'images YouTube en un clic, résolution native, sans pause. Enregistrez en PNG/JPG/WebP ou copiez dans le presse-papiers."
+  },
+  "actionTitle": {
+    "message": "Capturer l'image actuelle de la vidéo YouTube"
+  },
+  "btnClose": {
+    "message": "✕ Fermer"
+  },
+  "btnSave": {
+    "message": "💾 Enregistrer le fichier"
+  },
+  "btnCopy": {
+    "message": "📋 Copier dans le presse-papiers"
+  },
+  "previewAlt": {
+    "message": "aperçu de la capture d'écran"
+  },
+  "toastSaved": {
+    "message": "Enregistré : $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastCopied": {
+    "message": "Copié dans le presse-papiers. Collez-le dans une discussion ou un document."
+  },
+  "toastCopyDenied": {
+    "message": "Échec de la copie (le navigateur a refusé l'accès au presse-papiers). Utilisez plutôt « Enregistrer le fichier »."
+  },
+  "toastNoVideo": {
+    "message": "Aucune vidéo trouvée (à utiliser sur une page de lecture YouTube)."
+  },
+  "toastNotReady": {
+    "message": "La vidéo n'a pas encore chargé d'image. Lancez-la un instant, puis réessayez."
+  },
+  "metaNative": {
+    "message": "image native"
+  },
+  "metaSubs": {
+    "message": "avec sous-titres"
+  },
+  "toastScreenshotSaved": {
+    "message": "Capture enregistrée : $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastScreenshotCopied": {
+    "message": "Capture copiée dans le presse-papiers ($ARG1$×$ARG2$)",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "toastAutoCopyFailed": {
+    "message": "Échec de la copie automatique. L'aperçu est ouvert ; cliquez sur « Enregistrer le fichier »."
+  },
+  "toastCaptureFailed": {
+    "message": "Échec de la capture : $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "btnTitle": {
+    "message": "Capturer l'image actuelle (YouTube Screenshot)"
+  },
+  "btnAria": {
+    "message": "Capturer l'image actuelle"
+  },
+  "loading": {
+    "message": "Chargement…"
+  },
+  "notSet": {
+    "message": "Non défini"
+  },
+  "actPreview": {
+    "message": "Aperçu d'abord"
+  },
+  "actDownload": {
+    "message": "Enregistrer directement"
+  },
+  "actCopy": {
+    "message": "Copier dans le presse-papiers"
+  },
+  "popupTitle": {
+    "message": "YouTube Screenshot"
+  },
+  "popupSub": {
+    "message": "Sur une page de lecture YouTube, cliquez sur le bouton ci-dessous, appuyez sur le raccourci ou cliquez sur le bouton appareil photo en bas à droite du lecteur pour capturer l'image actuelle."
+  },
+  "popupCapture": {
+    "message": "Capturer l'image actuelle"
+  },
+  "popupShortcut": {
+    "message": "Raccourci"
+  },
+  "popupFormat": {
+    "message": "Format d'image"
+  },
+  "popupAfter": {
+    "message": "Après la capture"
+  },
+  "popupChangeShortcut": {
+    "message": "Changer le raccourci"
+  },
+  "popupSettings": {
+    "message": "Paramètres"
+  },
+  "popupNote": {
+    "message": "Les images propres sont à la résolution native de la vidéo, sans les commandes du lecteur ni les sous-titres. Pour inclure les sous-titres, basculez le mode de capture sur « Ce que vous voyez » dans les Paramètres."
+  },
+  "popupNotYouTubeOpen": {
+    "message": "Ce n'est pas une page YouTube. Ouvrez d'abord une vidéo."
+  },
+  "popupCapturing": {
+    "message": "Capture en cours…"
+  },
+  "popupNotYouTube": {
+    "message": "Ce n'est pas une page YouTube."
+  },
+  "popupCaptureFailed": {
+    "message": "Échec de la capture : $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupUnknownError": {
+    "message": "erreur inconnue"
+  },
+  "popupRequestFailed": {
+    "message": "Échec de la demande : $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPageTitle": {
+    "message": "Paramètres de YouTube Screenshot"
+  },
+  "optIntro": {
+    "message": "Les trois façons de capturer fonctionnent de la même manière : le bouton appareil photo en bas à droite du lecteur, le raccourci clavier et le bouton dans la fenêtre contextuelle de la barre d'outils. La capture ne met pas la lecture en pause ; la vidéo continue et l'image est celle du moment où vous avez appuyé."
+  },
+  "optH1": {
+    "message": "1. Raccourci clavier"
+  },
+  "optCurrentShortcut": {
+    "message": "Raccourci actuel : "
+  },
+  "optShortcutNotSet": {
+    "message": "Non défini (définissez-le sur la page des raccourcis de Chrome)"
+  },
+  "optShortcutHelp": {
+    "message": "Chrome ne permet pas aux extensions de modifier directement les raccourcis. Modifiez-le sur la page de Chrome : cliquez sur le bouton ci-dessous → trouvez « YouTube Screenshot » → cliquez sur l'icône crayon → appuyez sur la nouvelle combinaison de touches."
+  },
+  "optOpenShortcuts": {
+    "message": "Ouvrir la page des raccourcis de Chrome"
+  },
+  "optH2": {
+    "message": "2. Mode de capture"
+  },
+  "optCleanTitle": {
+    "message": "Image propre (recommandé)"
+  },
+  "optCleanDesc": {
+    "message": " — la résolution native de la vidéo (le 1080p/4K garde sa taille d'origine), sans commandes du lecteur, sous-titres ni curseur de souris. Qualité maximale."
+  },
+  "optCleanFallback": {
+    "message": "Si le navigateur bloque la capture d'images pour une vidéo particulière, il bascule automatiquement en mode « Ce que vous voyez »."
+  },
+  "optVisibleTitle": {
+    "message": "Ce que vous voyez"
+  },
+  "optVisibleDesc": {
+    "message": " — capture ce qui est réellement à l'écran, donc les sous-titres sont inclus, mais la résolution est limitée par la taille de la fenêtre ; c'est en plein écran que cela fonctionne le mieux."
+  },
+  "optH3": {
+    "message": "3. Après la capture"
+  },
+  "optPreviewDesc": {
+    "message": " — affiche un aperçu, puis vous choisissez « Enregistrer le fichier » ou « Copier dans le presse-papiers ». Pas satisfait ? Fermez-le et capturez à nouveau, sans fichiers gaspillés."
+  },
+  "optDownloadDesc": {
+    "message": " — télécharge directement dans le dossier de téléchargements de votre navigateur à chaque appui ; idéal pour capturer beaucoup d'images."
+  },
+  "optCopyDesc": {
+    "message": " — copie à chaque appui pour que vous puissiez coller directement dans une discussion, un document ou un e-mail (si la copie échoue, l'aperçu s'ouvre à la place, pour que l'image ne soit pas perdue)."
+  },
+  "optH4": {
+    "message": "4. Format d'image"
+  },
+  "optFmtPng": {
+    "message": "PNG (sans perte, fichiers plus lourds)"
+  },
+  "optFmtJpeg": {
+    "message": "JPG (petit, universel)"
+  },
+  "optFmtWebp": {
+    "message": "WebP (le plus petit)"
+  },
+  "optQuality": {
+    "message": "Qualité JPG / WebP : "
+  },
+  "optFileNamesLead": {
+    "message": "Les noms de fichiers sont générés automatiquement : "
+  },
+  "optFilenamePattern": {
+    "message": "video-title_mm-ss_date-time.ext"
+  },
+  "optFileNamesEg": {
+    "message": ", par ex. "
+  },
+  "optFilenameExample": {
+    "message": "Some Tutorial_12-34_20261114_145501.png"
+  },
+  "optFileNamesTail": {
+    "message": ". La copie dans le presse-papiers utilise toujours le PNG (une limitation du presse-papiers du navigateur), quel que soit le format choisi ici."
+  },
+  "optSave": {
+    "message": "Enregistrer les paramètres"
+  },
+  "optSaved": {
+    "message": "✓ Enregistré"
+  },
+  "optNotesH": {
+    "message": "Remarques et limites"
+  },
+  "optDrmTitle": {
+    "message": "Les vidéos protégées par DRM ne peuvent pas être capturées : "
+  },
+  "optDrmDesc": {
+    "message": "pour les contenus DRM comme Netflix, Disney+ et les films payants YouTube, le navigateur noircit l'image. C'est une restriction à l'échelle de l'industrie qu'aucune extension ne peut contourner. Les vidéos YouTube ordinaires (y compris la 4K) ne sont pas concernées."
+  },
+  "optSubsTitle": {
+    "message": "Sous-titres : "
+  },
+  "optSubsDesc": {
+    "message": "les images propres ne contiennent jamais de sous-titres (ils sont superposés par la page web et ne font pas partie de l'image vidéo). Pour inclure les sous-titres, utilisez « Ce que vous voyez », activez les sous-titres et capturez en plein écran."
+  },
+  "optShorts": {
+    "message": "Les pages Shorts fonctionnent aussi (résolution verticale native)."
+  },
+  "optPaused": {
+    "message": "Vous pouvez capturer en pause ; vous obtenez l'image affichée à l'écran."
+  },
+  "optSafari": {
+    "message": "Safari : cette extension est un code Web Extension standard et peut être convertie avec le safari-web-extension-converter de Xcode ; voir la section Safari du README du projet."
+  },
+  "optLangH": {
+    "message": "Langue de l'interface"
+  },
+  "optLangAuto": {
+    "message": "Suivre la langue du navigateur"
+  },
+  "optLangDesc": {
+    "message": "S'applique immédiatement à la page des paramètres, à la fenêtre contextuelle de la barre d'outils et aux messages dans la page. Le nom de l'extension affiché sur la page des extensions de Chrome suit toujours la langue du navigateur (une limitation de Chrome)."
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "extName": {
+    "message": "YouTube Screenshot - Captura de quadros"
+  },
+  "extDescription": {
+    "message": "Capture quadros do YouTube com um clique, sem pausar e na resolução nativa. Salve em PNG/JPG/WebP ou copie."
+  },
+  "actionTitle": {
+    "message": "Capturar o quadro atual do vídeo do YouTube"
+  },
+  "btnClose": {
+    "message": "✕ Fechar"
+  },
+  "btnSave": {
+    "message": "💾 Salvar arquivo"
+  },
+  "btnCopy": {
+    "message": "📋 Copiar para a área de transferência"
+  },
+  "previewAlt": {
+    "message": "prévia da captura de tela"
+  },
+  "toastSaved": {
+    "message": "Salvo: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastCopied": {
+    "message": "Copiado para a área de transferência. Cole em um chat ou documento."
+  },
+  "toastCopyDenied": {
+    "message": "A cópia falhou (o navegador negou o acesso à área de transferência). Use \"Salvar arquivo\"."
+  },
+  "toastNoVideo": {
+    "message": "Nenhum vídeo encontrado (use em uma página de exibição do YouTube)."
+  },
+  "toastNotReady": {
+    "message": "O vídeo ainda não carregou nenhuma imagem. Reproduza por um momento e tente de novo."
+  },
+  "metaNative": {
+    "message": "quadro nativo"
+  },
+  "metaSubs": {
+    "message": "com legendas"
+  },
+  "toastScreenshotSaved": {
+    "message": "Captura salva: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastScreenshotCopied": {
+    "message": "Captura copiada para a área de transferência ($ARG1$×$ARG2$)",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "toastAutoCopyFailed": {
+    "message": "A cópia automática falhou. A prévia foi aberta; clique em \"Salvar arquivo\"."
+  },
+  "toastCaptureFailed": {
+    "message": "A captura falhou: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "btnTitle": {
+    "message": "Capturar o quadro atual (YouTube Screenshot)"
+  },
+  "btnAria": {
+    "message": "Capturar o quadro atual"
+  },
+  "loading": {
+    "message": "Carregando…"
+  },
+  "notSet": {
+    "message": "Não definido"
+  },
+  "actPreview": {
+    "message": "Ver prévia primeiro"
+  },
+  "actDownload": {
+    "message": "Salvar diretamente"
+  },
+  "actCopy": {
+    "message": "Copiar para a área de transferência"
+  },
+  "popupTitle": {
+    "message": "YouTube Screenshot"
+  },
+  "popupSub": {
+    "message": "Em uma página de exibição do YouTube, clique no botão abaixo, pressione o atalho ou clique no botão de câmera no canto inferior direito do player para capturar o quadro atual."
+  },
+  "popupCapture": {
+    "message": "Capturar o quadro atual"
+  },
+  "popupShortcut": {
+    "message": "Atalho"
+  },
+  "popupFormat": {
+    "message": "Formato da imagem"
+  },
+  "popupAfter": {
+    "message": "Após a captura"
+  },
+  "popupChangeShortcut": {
+    "message": "Alterar atalho"
+  },
+  "popupSettings": {
+    "message": "Configurações"
+  },
+  "popupNote": {
+    "message": "Os quadros limpos têm a resolução nativa do vídeo, sem controles do player nem legendas. Para incluir legendas, mude o modo de captura para \"O que você vê\" nas Configurações."
+  },
+  "popupNotYouTubeOpen": {
+    "message": "Esta não é uma página do YouTube. Abra um vídeo primeiro."
+  },
+  "popupCapturing": {
+    "message": "Capturando…"
+  },
+  "popupNotYouTube": {
+    "message": "Esta não é uma página do YouTube."
+  },
+  "popupCaptureFailed": {
+    "message": "A captura falhou: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupUnknownError": {
+    "message": "erro desconhecido"
+  },
+  "popupRequestFailed": {
+    "message": "A solicitação falhou: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPageTitle": {
+    "message": "Configurações do YouTube Screenshot"
+  },
+  "optIntro": {
+    "message": "As três formas de capturar funcionam da mesma maneira: o botão de câmera no canto inferior direito do player, o atalho de teclado e o botão no pop-up da barra de ferramentas. Capturar não pausa a reprodução; o vídeo continua e a imagem é o quadro do momento em que você pressionou."
+  },
+  "optH1": {
+    "message": "1. Atalho de teclado"
+  },
+  "optCurrentShortcut": {
+    "message": "Atalho atual: "
+  },
+  "optShortcutNotSet": {
+    "message": "Não definido (defina na página de atalhos do Chrome)"
+  },
+  "optShortcutHelp": {
+    "message": "O Chrome não permite que extensões alterem atalhos diretamente. Altere na própria página do Chrome: clique no botão abaixo → encontre \"YouTube Screenshot\" → clique no ícone de lápis → pressione a nova combinação de teclas."
+  },
+  "optOpenShortcuts": {
+    "message": "Abrir a página de atalhos do Chrome"
+  },
+  "optH2": {
+    "message": "2. Modo de captura"
+  },
+  "optCleanTitle": {
+    "message": "Quadro limpo (recomendado)"
+  },
+  "optCleanDesc": {
+    "message": " — a resolução nativa do vídeo (1080p/4K mantém o tamanho original), sem controles do player, legendas ou cursor do mouse. A maior qualidade."
+  },
+  "optCleanFallback": {
+    "message": "Se o navegador bloquear a captura de quadros de um vídeo específico, ele muda automaticamente para o modo \"O que você vê\"."
+  },
+  "optVisibleTitle": {
+    "message": "O que você vê"
+  },
+  "optVisibleDesc": {
+    "message": " — captura o que realmente está na tela, então as legendas são incluídas, mas a resolução é limitada pelo tamanho da janela; funciona melhor em tela cheia."
+  },
+  "optH3": {
+    "message": "3. Após a captura"
+  },
+  "optPreviewDesc": {
+    "message": " — mostra uma prévia e então você escolhe \"Salvar arquivo\" ou \"Copiar para a área de transferência\". Não gostou? Feche e capture de novo, sem arquivos desperdiçados."
+  },
+  "optDownloadDesc": {
+    "message": " — baixa direto para a pasta de downloads do navegador a cada pressionamento; bom para capturar muitos quadros."
+  },
+  "optCopyDesc": {
+    "message": " — copia a cada pressionamento para você colar direto em um chat, documento ou e-mail (se a cópia falhar, a prévia é aberta, para a imagem não se perder)."
+  },
+  "optH4": {
+    "message": "4. Formato da imagem"
+  },
+  "optFmtPng": {
+    "message": "PNG (sem perdas, arquivos maiores)"
+  },
+  "optFmtJpeg": {
+    "message": "JPG (pequeno, universal)"
+  },
+  "optFmtWebp": {
+    "message": "WebP (o menor)"
+  },
+  "optQuality": {
+    "message": "Qualidade JPG / WebP: "
+  },
+  "optFileNamesLead": {
+    "message": "Os nomes de arquivo são gerados automaticamente: "
+  },
+  "optFilenamePattern": {
+    "message": "video-title_mm-ss_date-time.ext"
+  },
+  "optFileNamesEg": {
+    "message": ", p. ex. "
+  },
+  "optFilenameExample": {
+    "message": "Some Tutorial_12-34_20261114_145501.png"
+  },
+  "optFileNamesTail": {
+    "message": ". Copiar para a área de transferência sempre usa PNG (uma limitação da área de transferência do navegador), independentemente do formato escolhido aqui."
+  },
+  "optSave": {
+    "message": "Salvar configurações"
+  },
+  "optSaved": {
+    "message": "✓ Salvo"
+  },
+  "optNotesH": {
+    "message": "Observações e limites"
+  },
+  "optDrmTitle": {
+    "message": "Vídeos protegidos por DRM não podem ser capturados: "
+  },
+  "optDrmDesc": {
+    "message": "em conteúdo com DRM como Netflix, Disney+ e filmes pagos do YouTube, o navegador escurece a imagem. É uma restrição de todo o setor que nenhuma extensão pode contornar. Vídeos comuns do YouTube (incluindo 4K) não são afetados."
+  },
+  "optSubsTitle": {
+    "message": "Legendas: "
+  },
+  "optSubsDesc": {
+    "message": "quadros limpos nunca contêm legendas (elas são sobrepostas pela página da web e não fazem parte da imagem do vídeo). Para incluir legendas, use \"O que você vê\", ative as legendas e capture em tela cheia."
+  },
+  "optShorts": {
+    "message": "Páginas de Shorts também funcionam (resolução vertical nativa)."
+  },
+  "optPaused": {
+    "message": "Você pode capturar com o vídeo pausado; o quadro obtido é o que está na tela."
+  },
+  "optSafari": {
+    "message": "Safari: esta extensão é um código Web Extension padrão e pode ser convertida com o safari-web-extension-converter do Xcode; veja a seção Safari do README do projeto."
+  },
+  "optLangH": {
+    "message": "Idioma da interface"
+  },
+  "optLangAuto": {
+    "message": "Seguir o idioma do navegador"
+  },
+  "optLangDesc": {
+    "message": "Aplica-se imediatamente à página de configurações, ao pop-up da barra de ferramentas e às mensagens na página. O nome da extensão exibido na página de extensões do Chrome continua seguindo o idioma do navegador (uma limitação do Chrome)."
+  }
+}

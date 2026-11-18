@@ -1,0 +1,275 @@
+{
+  "extName": {
+    "message": "YouTube Screenshot - จับภาพเฟรมวิดีโอ"
+  },
+  "extDescription": {
+    "message": "จับภาพเฟรม YouTube ในคลิกเดียว ความละเอียดต้นฉบับ ไม่ต้องหยุดเล่น บันทึก PNG/JPG/WebP หรือคัดลอกได้"
+  },
+  "actionTitle": {
+    "message": "จับภาพเฟรมปัจจุบันของวิดีโอ YouTube"
+  },
+  "btnClose": {
+    "message": "✕ ปิด"
+  },
+  "btnSave": {
+    "message": "💾 บันทึกไฟล์"
+  },
+  "btnCopy": {
+    "message": "📋 คัดลอกไปยังคลิปบอร์ด"
+  },
+  "previewAlt": {
+    "message": "ตัวอย่างภาพหน้าจอ"
+  },
+  "toastSaved": {
+    "message": "บันทึกแล้ว: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastCopied": {
+    "message": "คัดลอกไปยังคลิปบอร์ดแล้ว วางลงในแชทหรือเอกสารได้เลย"
+  },
+  "toastCopyDenied": {
+    "message": "คัดลอกไม่สำเร็จ (เบราว์เซอร์ปฏิเสธการเข้าถึงคลิปบอร์ด) โปรดใช้ \"บันทึกไฟล์\" แทน"
+  },
+  "toastNoVideo": {
+    "message": "ไม่พบวิดีโอ (ใช้บนหน้าเล่นวิดีโอของ YouTube)"
+  },
+  "toastNotReady": {
+    "message": "วิดีโอยังโหลดภาพไม่เสร็จ เล่นสักครู่แล้วลองอีกครั้ง"
+  },
+  "metaNative": {
+    "message": "เฟรมต้นฉบับ"
+  },
+  "metaSubs": {
+    "message": "พร้อมคำบรรยาย"
+  },
+  "toastScreenshotSaved": {
+    "message": "บันทึกภาพหน้าจอแล้ว: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastScreenshotCopied": {
+    "message": "คัดลอกภาพหน้าจอไปยังคลิปบอร์ดแล้ว ($ARG1$×$ARG2$)",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "toastAutoCopyFailed": {
+    "message": "คัดลอกอัตโนมัติไม่สำเร็จ เปิดตัวอย่างให้แล้ว คลิก \"บันทึกไฟล์\""
+  },
+  "toastCaptureFailed": {
+    "message": "จับภาพไม่สำเร็จ: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "btnTitle": {
+    "message": "จับภาพเฟรมปัจจุบัน (YouTube Screenshot)"
+  },
+  "btnAria": {
+    "message": "จับภาพเฟรมปัจจุบัน"
+  },
+  "loading": {
+    "message": "กำลังโหลด…"
+  },
+  "notSet": {
+    "message": "ยังไม่ได้ตั้ง"
+  },
+  "actPreview": {
+    "message": "ดูตัวอย่างก่อน"
+  },
+  "actDownload": {
+    "message": "บันทึกโดยตรง"
+  },
+  "actCopy": {
+    "message": "คัดลอกไปยังคลิปบอร์ด"
+  },
+  "popupTitle": {
+    "message": "YouTube Screenshot"
+  },
+  "popupSub": {
+    "message": "บนหน้าเล่นวิดีโอของ YouTube คลิกปุ่มด้านล่าง กดปุ่มลัด หรือคลิกปุ่มกล้องที่มุมขวาล่างของเครื่องเล่น เพื่อจับภาพเฟรมปัจจุบัน"
+  },
+  "popupCapture": {
+    "message": "จับภาพเฟรมปัจจุบัน"
+  },
+  "popupShortcut": {
+    "message": "ปุ่มลัด"
+  },
+  "popupFormat": {
+    "message": "รูปแบบภาพ"
+  },
+  "popupAfter": {
+    "message": "หลังจับภาพ"
+  },
+  "popupChangeShortcut": {
+    "message": "เปลี่ยนปุ่มลัด"
+  },
+  "popupSettings": {
+    "message": "การตั้งค่า"
+  },
+  "popupNote": {
+    "message": "เฟรมแบบคลีนคือความละเอียดต้นฉบับของวิดีโอ ไม่มีปุ่มควบคุมของเครื่องเล่นและไม่มีคำบรรยาย หากต้องการรวมคำบรรยาย ให้เปลี่ยนโหมดการจับภาพเป็น \"สิ่งที่คุณเห็น\" ในการตั้งค่า"
+  },
+  "popupNotYouTubeOpen": {
+    "message": "นี่ไม่ใช่หน้า YouTube โปรดเปิดวิดีโอก่อน"
+  },
+  "popupCapturing": {
+    "message": "กำลังจับภาพ…"
+  },
+  "popupNotYouTube": {
+    "message": "นี่ไม่ใช่หน้า YouTube"
+  },
+  "popupCaptureFailed": {
+    "message": "จับภาพไม่สำเร็จ: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupUnknownError": {
+    "message": "ข้อผิดพลาดที่ไม่ทราบสาเหตุ"
+  },
+  "popupRequestFailed": {
+    "message": "คำขอไม่สำเร็จ: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPageTitle": {
+    "message": "การตั้งค่า YouTube Screenshot"
+  },
+  "optIntro": {
+    "message": "วิธีจับภาพทั้งสามแบบทำงานเหมือนกัน: ปุ่มกล้องที่มุมขวาล่างของเครื่องเล่น ปุ่มลัดบนแป้นพิมพ์ และปุ่มในป๊อปอัปของแถบเครื่องมือ การจับภาพไม่หยุดการเล่น วิดีโอจะเล่นต่อไป และภาพคือเฟรม ณ วินาทีที่คุณกด"
+  },
+  "optH1": {
+    "message": "1. ปุ่มลัดบนแป้นพิมพ์"
+  },
+  "optCurrentShortcut": {
+    "message": "ปุ่มลัดปัจจุบัน: "
+  },
+  "optShortcutNotSet": {
+    "message": "ยังไม่ได้ตั้ง (ตั้งได้ในหน้าปุ่มลัดของ Chrome)"
+  },
+  "optShortcutHelp": {
+    "message": "Chrome ไม่อนุญาตให้ส่วนขยายเปลี่ยนปุ่มลัดโดยตรง เปลี่ยนได้ในหน้าของ Chrome เอง: คลิกปุ่มด้านล่าง → ค้นหา \"YouTube Screenshot\" → คลิกไอคอนดินสอ → กดชุดปุ่มใหม่"
+  },
+  "optOpenShortcuts": {
+    "message": "เปิดหน้าปุ่มลัดของ Chrome"
+  },
+  "optH2": {
+    "message": "2. โหมดการจับภาพ"
+  },
+  "optCleanTitle": {
+    "message": "เฟรมแบบคลีน (แนะนำ)"
+  },
+  "optCleanDesc": {
+    "message": " — ความละเอียดต้นฉบับของวิดีโอ (1080p/4K คงขนาดเดิม) ไม่มีปุ่มควบคุมของเครื่องเล่น คำบรรยาย หรือเคอร์เซอร์เมาส์ คุณภาพสูงสุด"
+  },
+  "optCleanFallback": {
+    "message": "หากเบราว์เซอร์บล็อกการจับภาพเฟรมของวิดีโอบางรายการ จะเปลี่ยนไปใช้โหมด \"สิ่งที่คุณเห็น\" โดยอัตโนมัติ"
+  },
+  "optVisibleTitle": {
+    "message": "สิ่งที่คุณเห็น"
+  },
+  "optVisibleDesc": {
+    "message": " — จับภาพสิ่งที่อยู่บนหน้าจอจริง จึงรวมคำบรรยายด้วย แต่ความละเอียดถูกจำกัดด้วยขนาดหน้าต่าง ใช้ได้ดีที่สุดในโหมดเต็มจอ"
+  },
+  "optH3": {
+    "message": "3. หลังการจับภาพ"
+  },
+  "optPreviewDesc": {
+    "message": " — แสดงตัวอย่างก่อน แล้วเลือก \"บันทึกไฟล์\" หรือ \"คัดลอกไปยังคลิปบอร์ด\" ไม่พอใจก็ปิดแล้วจับใหม่ได้ ไม่เสียไฟล์"
+  },
+  "optDownloadDesc": {
+    "message": " — ดาวน์โหลดตรงไปยังโฟลเดอร์ดาวน์โหลดของเบราว์เซอร์ทุกครั้งที่กด เหมาะกับการจับภาพจำนวนมาก"
+  },
+  "optCopyDesc": {
+    "message": " — คัดลอกทุกครั้งที่กด เพื่อให้วางลงในแชท เอกสาร หรืออีเมลได้ทันที (หากคัดลอกไม่สำเร็จ จะเปิดตัวอย่างแทน เพื่อไม่ให้ภาพหาย)"
+  },
+  "optH4": {
+    "message": "4. รูปแบบภาพ"
+  },
+  "optFmtPng": {
+    "message": "PNG (ไม่สูญเสียคุณภาพ ไฟล์ใหญ่กว่า)"
+  },
+  "optFmtJpeg": {
+    "message": "JPG (เล็ก ใช้ได้ทั่วไป)"
+  },
+  "optFmtWebp": {
+    "message": "WebP (เล็กที่สุด)"
+  },
+  "optQuality": {
+    "message": "คุณภาพ JPG / WebP: "
+  },
+  "optFileNamesLead": {
+    "message": "ชื่อไฟล์ถูกสร้างโดยอัตโนมัติ: "
+  },
+  "optFilenamePattern": {
+    "message": "video-title_mm-ss_date-time.ext"
+  },
+  "optFileNamesEg": {
+    "message": " เช่น "
+  },
+  "optFilenameExample": {
+    "message": "Some Tutorial_12-34_20261114_145501.png"
+  },
+  "optFileNamesTail": {
+    "message": " การคัดลอกไปยังคลิปบอร์ดจะใช้ PNG เสมอ (ข้อจำกัดของคลิปบอร์ดเบราว์เซอร์) ไม่ว่าจะเลือกรูปแบบใดที่นี่"
+  },
+  "optSave": {
+    "message": "บันทึกการตั้งค่า"
+  },
+  "optSaved": {
+    "message": "✓ บันทึกแล้ว"
+  },
+  "optNotesH": {
+    "message": "หมายเหตุและข้อจำกัด"
+  },
+  "optDrmTitle": {
+    "message": "วิดีโอที่ป้องกันด้วย DRM จับภาพไม่ได้: "
+  },
+  "optDrmDesc": {
+    "message": "สำหรับเนื้อหา DRM เช่น Netflix, Disney+ และภาพยนตร์เสียเงินบน YouTube เบราว์เซอร์จะทำให้ภาพเป็นสีดำ นี่เป็นข้อจำกัดทั่วทั้งอุตสาหกรรมที่ไม่มีส่วนขยายใดเลี่ยงได้ วิดีโอ YouTube ทั่วไป (รวมถึง 4K) ไม่ได้รับผลกระทบ"
+  },
+  "optSubsTitle": {
+    "message": "คำบรรยาย: "
+  },
+  "optSubsDesc": {
+    "message": "เฟรมแบบคลีนไม่มีคำบรรยายเลย (คำบรรยายถูกซ้อนทับโดยหน้าเว็บและไม่ใช่ส่วนหนึ่งของภาพวิดีโอ) หากต้องการรวมคำบรรยาย ให้ใช้ \"สิ่งที่คุณเห็น\" เปิดคำบรรยาย และจับภาพในโหมดเต็มจอ"
+  },
+  "optShorts": {
+    "message": "หน้า Shorts ก็ใช้ได้เช่นกัน (ความละเอียดแนวตั้งต้นฉบับ)"
+  },
+  "optPaused": {
+    "message": "จับภาพขณะหยุดชั่วคราวได้ คุณจะได้เฟรมที่อยู่บนหน้าจอ"
+  },
+  "optSafari": {
+    "message": "Safari: ส่วนขยายนี้เป็นซอร์สโค้ด Web Extension มาตรฐาน และแปลงได้ด้วย safari-web-extension-converter ของ Xcode ดูขั้นตอนในส่วน Safari ของ README โครงการ"
+  },
+  "optLangH": {
+    "message": "ภาษาของอินเทอร์เฟซ"
+  },
+  "optLangAuto": {
+    "message": "ตามภาษาของเบราว์เซอร์"
+  },
+  "optLangDesc": {
+    "message": "มีผลทันทีกับหน้าการตั้งค่า ป๊อปอัปของแถบเครื่องมือ และข้อความในหน้า ชื่อส่วนขยายที่แสดงในหน้าส่วนขยายของ Chrome ยังคงตามภาษาของเบราว์เซอร์ (ข้อจำกัดของ Chrome)"
+  }
+}

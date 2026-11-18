@@ -1,0 +1,275 @@
+{
+  "extName": {
+    "message": "YouTube Screenshot - Chụp khung hình video"
+  },
+  "extDescription": {
+    "message": "Chụp khung hình YouTube chỉ với một cú nhấp, độ phân giải gốc, không cần tạm dừng. Lưu PNG/JPG/WebP hoặc sao chép."
+  },
+  "actionTitle": {
+    "message": "Chụp khung hình hiện tại của video YouTube"
+  },
+  "btnClose": {
+    "message": "✕ Đóng"
+  },
+  "btnSave": {
+    "message": "💾 Lưu tệp"
+  },
+  "btnCopy": {
+    "message": "📋 Sao chép vào bộ nhớ tạm"
+  },
+  "previewAlt": {
+    "message": "xem trước ảnh chụp"
+  },
+  "toastSaved": {
+    "message": "Đã lưu: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastCopied": {
+    "message": "Đã sao chép vào bộ nhớ tạm. Dán vào cuộc trò chuyện hoặc tài liệu."
+  },
+  "toastCopyDenied": {
+    "message": "Sao chép thất bại (trình duyệt từ chối quyền truy cập bộ nhớ tạm). Hãy dùng \"Lưu tệp\" thay thế."
+  },
+  "toastNoVideo": {
+    "message": "Không tìm thấy video (hãy dùng trên trang xem YouTube)."
+  },
+  "toastNotReady": {
+    "message": "Video chưa tải được hình ảnh. Hãy phát một lúc rồi thử lại."
+  },
+  "metaNative": {
+    "message": "khung hình gốc"
+  },
+  "metaSubs": {
+    "message": "có phụ đề"
+  },
+  "toastScreenshotSaved": {
+    "message": "Đã lưu ảnh chụp: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastScreenshotCopied": {
+    "message": "Đã sao chép ảnh chụp vào bộ nhớ tạm ($ARG1$×$ARG2$)",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "toastAutoCopyFailed": {
+    "message": "Tự động sao chép thất bại. Đã mở bản xem trước; hãy nhấp \"Lưu tệp\"."
+  },
+  "toastCaptureFailed": {
+    "message": "Chụp thất bại: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "btnTitle": {
+    "message": "Chụp khung hình hiện tại (YouTube Screenshot)"
+  },
+  "btnAria": {
+    "message": "Chụp khung hình hiện tại"
+  },
+  "loading": {
+    "message": "Đang tải…"
+  },
+  "notSet": {
+    "message": "Chưa đặt"
+  },
+  "actPreview": {
+    "message": "Xem trước trước"
+  },
+  "actDownload": {
+    "message": "Lưu trực tiếp"
+  },
+  "actCopy": {
+    "message": "Sao chép vào bộ nhớ tạm"
+  },
+  "popupTitle": {
+    "message": "YouTube Screenshot"
+  },
+  "popupSub": {
+    "message": "Trên trang xem YouTube, nhấp nút bên dưới, nhấn phím tắt hoặc nhấp nút máy ảnh ở góc dưới bên phải của trình phát để chụp khung hình hiện tại."
+  },
+  "popupCapture": {
+    "message": "Chụp khung hình hiện tại"
+  },
+  "popupShortcut": {
+    "message": "Phím tắt"
+  },
+  "popupFormat": {
+    "message": "Định dạng ảnh"
+  },
+  "popupAfter": {
+    "message": "Sau khi chụp"
+  },
+  "popupChangeShortcut": {
+    "message": "Đổi phím tắt"
+  },
+  "popupSettings": {
+    "message": "Cài đặt"
+  },
+  "popupNote": {
+    "message": "Khung hình sạch có độ phân giải gốc của video, không có điều khiển của trình phát hay phụ đề. Để có cả phụ đề, hãy chuyển chế độ chụp sang \"Những gì bạn thấy\" trong Cài đặt."
+  },
+  "popupNotYouTubeOpen": {
+    "message": "Đây không phải trang YouTube. Hãy mở một video trước."
+  },
+  "popupCapturing": {
+    "message": "Đang chụp…"
+  },
+  "popupNotYouTube": {
+    "message": "Đây không phải trang YouTube."
+  },
+  "popupCaptureFailed": {
+    "message": "Chụp thất bại: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupUnknownError": {
+    "message": "lỗi không xác định"
+  },
+  "popupRequestFailed": {
+    "message": "Yêu cầu thất bại: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPageTitle": {
+    "message": "Cài đặt YouTube Screenshot"
+  },
+  "optIntro": {
+    "message": "Cả ba cách chụp đều hoạt động giống nhau: nút máy ảnh ở góc dưới bên phải của trình phát, phím tắt bàn phím và nút trong cửa sổ bật lên trên thanh công cụ. Chụp không làm dừng phát; video vẫn phát tiếp và ảnh là khung hình tại thời điểm bạn nhấn."
+  },
+  "optH1": {
+    "message": "1. Phím tắt bàn phím"
+  },
+  "optCurrentShortcut": {
+    "message": "Phím tắt hiện tại: "
+  },
+  "optShortcutNotSet": {
+    "message": "Chưa đặt (đặt trên trang phím tắt của Chrome)"
+  },
+  "optShortcutHelp": {
+    "message": "Chrome không cho phép tiện ích thay đổi phím tắt trực tiếp. Hãy thay đổi trên trang của Chrome: nhấp nút bên dưới → tìm \"YouTube Screenshot\" → nhấp biểu tượng bút chì → nhấn tổ hợp phím mới."
+  },
+  "optOpenShortcuts": {
+    "message": "Mở trang phím tắt của Chrome"
+  },
+  "optH2": {
+    "message": "2. Chế độ chụp"
+  },
+  "optCleanTitle": {
+    "message": "Khung hình sạch (khuyên dùng)"
+  },
+  "optCleanDesc": {
+    "message": " — độ phân giải gốc của video (1080p/4K giữ nguyên kích thước gốc), không có điều khiển của trình phát, phụ đề hay con trỏ chuột. Chất lượng cao nhất."
+  },
+  "optCleanFallback": {
+    "message": "Nếu trình duyệt chặn việc chụp khung hình đối với một video cụ thể, nó sẽ tự động chuyển sang chế độ \"Những gì bạn thấy\"."
+  },
+  "optVisibleTitle": {
+    "message": "Những gì bạn thấy"
+  },
+  "optVisibleDesc": {
+    "message": " — chụp những gì thực sự có trên màn hình, nên có cả phụ đề, nhưng độ phân giải bị giới hạn bởi kích thước cửa sổ; hoạt động tốt nhất ở chế độ toàn màn hình."
+  },
+  "optH3": {
+    "message": "3. Sau khi chụp"
+  },
+  "optPreviewDesc": {
+    "message": " — hiển thị bản xem trước, rồi bạn chọn \"Lưu tệp\" hoặc \"Sao chép vào bộ nhớ tạm\". Không ưng ý? Đóng lại và chụp lần nữa, không tốn tệp rác."
+  },
+  "optDownloadDesc": {
+    "message": " — mỗi lần nhấn sẽ tải thẳng xuống thư mục tải xuống của trình duyệt; phù hợp để chụp nhiều khung hình."
+  },
+  "optCopyDesc": {
+    "message": " — mỗi lần nhấn sẽ sao chép để bạn dán thẳng vào cuộc trò chuyện, tài liệu hoặc email (nếu sao chép thất bại, bản xem trước sẽ mở ra thay thế, để ảnh không bị mất)."
+  },
+  "optH4": {
+    "message": "4. Định dạng ảnh"
+  },
+  "optFmtPng": {
+    "message": "PNG (không mất dữ liệu, tệp lớn hơn)"
+  },
+  "optFmtJpeg": {
+    "message": "JPG (nhỏ, phổ biến)"
+  },
+  "optFmtWebp": {
+    "message": "WebP (nhỏ nhất)"
+  },
+  "optQuality": {
+    "message": "Chất lượng JPG / WebP: "
+  },
+  "optFileNamesLead": {
+    "message": "Tên tệp được tạo tự động: "
+  },
+  "optFilenamePattern": {
+    "message": "video-title_mm-ss_date-time.ext"
+  },
+  "optFileNamesEg": {
+    "message": ", ví dụ "
+  },
+  "optFilenameExample": {
+    "message": "Some Tutorial_12-34_20261114_145501.png"
+  },
+  "optFileNamesTail": {
+    "message": ". Sao chép vào bộ nhớ tạm luôn dùng PNG (giới hạn của bộ nhớ tạm của trình duyệt), bất kể định dạng đã chọn ở đây."
+  },
+  "optSave": {
+    "message": "Lưu cài đặt"
+  },
+  "optSaved": {
+    "message": "✓ Đã lưu"
+  },
+  "optNotesH": {
+    "message": "Lưu ý và giới hạn"
+  },
+  "optDrmTitle": {
+    "message": "Không thể chụp video được bảo vệ bởi DRM: "
+  },
+  "optDrmDesc": {
+    "message": "với nội dung DRM như Netflix, Disney+ và phim trả phí trên YouTube, trình duyệt sẽ làm đen hình ảnh. Đây là giới hạn chung của toàn ngành mà không tiện ích nào vượt qua được. Video YouTube thông thường (kể cả 4K) không bị ảnh hưởng."
+  },
+  "optSubsTitle": {
+    "message": "Phụ đề: "
+  },
+  "optSubsDesc": {
+    "message": "khung hình sạch không bao giờ chứa phụ đề (phụ đề do trang web chồng lên và không phải một phần của hình ảnh video). Để có phụ đề, hãy dùng \"Những gì bạn thấy\", bật phụ đề và chụp ở chế độ toàn màn hình."
+  },
+  "optShorts": {
+    "message": "Trang Shorts cũng dùng được (độ phân giải dọc gốc)."
+  },
+  "optPaused": {
+    "message": "Bạn có thể chụp khi đang tạm dừng; bạn sẽ nhận được khung hình đang hiển thị trên màn hình."
+  },
+  "optSafari": {
+    "message": "Safari: tiện ích này là mã nguồn Web Extension chuẩn và có thể chuyển đổi bằng safari-web-extension-converter của Xcode; xem mục Safari trong README của dự án."
+  },
+  "optLangH": {
+    "message": "Ngôn ngữ giao diện"
+  },
+  "optLangAuto": {
+    "message": "Theo ngôn ngữ của trình duyệt"
+  },
+  "optLangDesc": {
+    "message": "Áp dụng ngay cho trang cài đặt, cửa sổ bật lên trên thanh công cụ và thông báo trong trang. Tên tiện ích hiển thị trên trang tiện ích của Chrome vẫn theo ngôn ngữ của trình duyệt (giới hạn của Chrome)."
+  }
+}

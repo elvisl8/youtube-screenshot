@@ -1,0 +1,275 @@
+{
+  "extName": {
+    "message": "YouTube Screenshot - Cattura fotogrammi"
+  },
+  "extDescription": {
+    "message": "Cattura fotogrammi YouTube con un clic, a risoluzione nativa e senza pausa. Salva in PNG/JPG/WebP o copia negli appunti."
+  },
+  "actionTitle": {
+    "message": "Cattura il fotogramma corrente del video YouTube"
+  },
+  "btnClose": {
+    "message": "✕ Chiudi"
+  },
+  "btnSave": {
+    "message": "💾 Salva file"
+  },
+  "btnCopy": {
+    "message": "📋 Copia negli appunti"
+  },
+  "previewAlt": {
+    "message": "anteprima dello screenshot"
+  },
+  "toastSaved": {
+    "message": "Salvato: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastCopied": {
+    "message": "Copiato negli appunti. Incollalo in una chat o in un documento."
+  },
+  "toastCopyDenied": {
+    "message": "Copia non riuscita (il browser ha negato l'accesso agli appunti). Usa invece \"Salva file\"."
+  },
+  "toastNoVideo": {
+    "message": "Nessun video trovato (usalo su una pagina di riproduzione YouTube)."
+  },
+  "toastNotReady": {
+    "message": "Il video non ha ancora caricato un'immagine. Riproducilo per un momento, poi riprova."
+  },
+  "metaNative": {
+    "message": "fotogramma nativo"
+  },
+  "metaSubs": {
+    "message": "con sottotitoli"
+  },
+  "toastScreenshotSaved": {
+    "message": "Screenshot salvato: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastScreenshotCopied": {
+    "message": "Screenshot copiato negli appunti ($ARG1$×$ARG2$)",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "toastAutoCopyFailed": {
+    "message": "Copia automatica non riuscita. Anteprima aperta; fai clic su \"Salva file\"."
+  },
+  "toastCaptureFailed": {
+    "message": "Cattura non riuscita: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "btnTitle": {
+    "message": "Cattura il fotogramma corrente (YouTube Screenshot)"
+  },
+  "btnAria": {
+    "message": "Cattura il fotogramma corrente"
+  },
+  "loading": {
+    "message": "Caricamento…"
+  },
+  "notSet": {
+    "message": "Non impostato"
+  },
+  "actPreview": {
+    "message": "Prima l'anteprima"
+  },
+  "actDownload": {
+    "message": "Salva direttamente"
+  },
+  "actCopy": {
+    "message": "Copia negli appunti"
+  },
+  "popupTitle": {
+    "message": "YouTube Screenshot"
+  },
+  "popupSub": {
+    "message": "Su una pagina di riproduzione YouTube, fai clic sul pulsante qui sotto, premi la scorciatoia o fai clic sul pulsante fotocamera in basso a destra nel player per catturare il fotogramma corrente."
+  },
+  "popupCapture": {
+    "message": "Cattura il fotogramma corrente"
+  },
+  "popupShortcut": {
+    "message": "Scorciatoia"
+  },
+  "popupFormat": {
+    "message": "Formato immagine"
+  },
+  "popupAfter": {
+    "message": "Dopo la cattura"
+  },
+  "popupChangeShortcut": {
+    "message": "Cambia scorciatoia"
+  },
+  "popupSettings": {
+    "message": "Impostazioni"
+  },
+  "popupNote": {
+    "message": "I fotogrammi puliti hanno la risoluzione nativa del video, senza controlli del player né sottotitoli. Per includere i sottotitoli, imposta la modalità di cattura su \"Ciò che vedi\" nelle Impostazioni."
+  },
+  "popupNotYouTubeOpen": {
+    "message": "Questa non è una pagina YouTube. Apri prima un video."
+  },
+  "popupCapturing": {
+    "message": "Cattura in corso…"
+  },
+  "popupNotYouTube": {
+    "message": "Questa non è una pagina YouTube."
+  },
+  "popupCaptureFailed": {
+    "message": "Cattura non riuscita: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupUnknownError": {
+    "message": "errore sconosciuto"
+  },
+  "popupRequestFailed": {
+    "message": "Richiesta non riuscita: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPageTitle": {
+    "message": "Impostazioni di YouTube Screenshot"
+  },
+  "optIntro": {
+    "message": "Tutti e tre i modi di catturare funzionano allo stesso modo: il pulsante fotocamera in basso a destra nel player, la scorciatoia da tastiera e il pulsante nel popup della barra degli strumenti. La cattura non mette in pausa la riproduzione; il video continua e l'immagine è il fotogramma del momento in cui hai premuto."
+  },
+  "optH1": {
+    "message": "1. Scorciatoia da tastiera"
+  },
+  "optCurrentShortcut": {
+    "message": "Scorciatoia corrente: "
+  },
+  "optShortcutNotSet": {
+    "message": "Non impostata (impostala nella pagina delle scorciatoie di Chrome)"
+  },
+  "optShortcutHelp": {
+    "message": "Chrome non consente alle estensioni di modificare direttamente le scorciatoie. Modificala nella pagina di Chrome: fai clic sul pulsante qui sotto → trova \"YouTube Screenshot\" → fai clic sull'icona della matita → premi la nuova combinazione di tasti."
+  },
+  "optOpenShortcuts": {
+    "message": "Apri la pagina delle scorciatoie di Chrome"
+  },
+  "optH2": {
+    "message": "2. Modalità di cattura"
+  },
+  "optCleanTitle": {
+    "message": "Fotogramma pulito (consigliato)"
+  },
+  "optCleanDesc": {
+    "message": " — la risoluzione nativa del video (1080p/4K mantiene la dimensione originale), senza controlli del player, sottotitoli o cursore del mouse. Qualità massima."
+  },
+  "optCleanFallback": {
+    "message": "Se il browser blocca la cattura dei fotogrammi per un video particolare, passa automaticamente alla modalità \"Ciò che vedi\"."
+  },
+  "optVisibleTitle": {
+    "message": "Ciò che vedi"
+  },
+  "optVisibleDesc": {
+    "message": " — cattura ciò che è effettivamente sullo schermo, quindi i sottotitoli sono inclusi, ma la risoluzione è limitata dalla dimensione della finestra; funziona al meglio a schermo intero."
+  },
+  "optH3": {
+    "message": "3. Dopo la cattura"
+  },
+  "optPreviewDesc": {
+    "message": " — mostra un'anteprima, poi scegli \"Salva file\" o \"Copia negli appunti\". Non ti piace? Chiudila e cattura di nuovo, senza file sprecati."
+  },
+  "optDownloadDesc": {
+    "message": " — scarica direttamente nella cartella dei download del browser a ogni pressione; utile per catturare molti fotogrammi."
+  },
+  "optCopyDesc": {
+    "message": " — copia a ogni pressione così puoi incollare direttamente in una chat, un documento o un'e-mail (se la copia non riesce, si apre invece l'anteprima, così l'immagine non va persa)."
+  },
+  "optH4": {
+    "message": "4. Formato immagine"
+  },
+  "optFmtPng": {
+    "message": "PNG (senza perdita, file più grandi)"
+  },
+  "optFmtJpeg": {
+    "message": "JPG (piccolo, universale)"
+  },
+  "optFmtWebp": {
+    "message": "WebP (il più piccolo)"
+  },
+  "optQuality": {
+    "message": "Qualità JPG / WebP: "
+  },
+  "optFileNamesLead": {
+    "message": "I nomi dei file sono generati automaticamente: "
+  },
+  "optFilenamePattern": {
+    "message": "video-title_mm-ss_date-time.ext"
+  },
+  "optFileNamesEg": {
+    "message": ", ad es. "
+  },
+  "optFilenameExample": {
+    "message": "Some Tutorial_12-34_20261114_145501.png"
+  },
+  "optFileNamesTail": {
+    "message": ". La copia negli appunti usa sempre PNG (una limitazione degli appunti del browser), indipendentemente dal formato scelto qui."
+  },
+  "optSave": {
+    "message": "Salva impostazioni"
+  },
+  "optSaved": {
+    "message": "✓ Salvato"
+  },
+  "optNotesH": {
+    "message": "Note e limiti"
+  },
+  "optDrmTitle": {
+    "message": "I video protetti da DRM non possono essere catturati: "
+  },
+  "optDrmDesc": {
+    "message": "per i contenuti DRM come Netflix, Disney+ e i film a pagamento di YouTube, il browser oscura l'immagine. È una restrizione dell'intero settore che nessuna estensione può aggirare. I normali video YouTube (incluso il 4K) non ne sono interessati."
+  },
+  "optSubsTitle": {
+    "message": "Sottotitoli: "
+  },
+  "optSubsDesc": {
+    "message": "i fotogrammi puliti non contengono mai sottotitoli (sono sovrapposti dalla pagina web e non fanno parte dell'immagine del video). Per includere i sottotitoli, usa \"Ciò che vedi\", attiva i sottotitoli e cattura a schermo intero."
+  },
+  "optShorts": {
+    "message": "Anche le pagine Shorts funzionano (risoluzione verticale nativa)."
+  },
+  "optPaused": {
+    "message": "Puoi catturare anche in pausa; ottieni il fotogramma presente sullo schermo."
+  },
+  "optSafari": {
+    "message": "Safari: questa estensione è codice Web Extension standard e può essere convertita con il safari-web-extension-converter di Xcode; vedi la sezione Safari del README del progetto."
+  },
+  "optLangH": {
+    "message": "Lingua dell'interfaccia"
+  },
+  "optLangAuto": {
+    "message": "Segui la lingua del browser"
+  },
+  "optLangDesc": {
+    "message": "Si applica immediatamente alla pagina delle impostazioni, al popup della barra degli strumenti e ai messaggi nella pagina. Il nome dell'estensione mostrato nella pagina delle estensioni di Chrome segue comunque la lingua del browser (una limitazione di Chrome)."
+  }
+}

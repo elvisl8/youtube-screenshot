@@ -2,7 +2,7 @@
 
 [English](README.md) | **简体中文**
 
-一键截取 YouTube 当前视频帧，不用暂停播放。Chrome MV3（源码同样兼容 Safari Web Extension）。所有语言共用同一个版本：界面语言跟随浏览器（已内置英文和简体中文）。
+一键截取 YouTube 当前视频帧，不用暂停播放。Chrome MV3（源码同样兼容 Safari Web Extension）。所有语言共用同一个版本：界面语言跟随浏览器（已内置 15 种语言：英文、简体中文、繁體中文、日本語、한국어、Español、Français、Deutsch、Русский、Português (Brasil)、Italiano、Tiếng Việt、ไทย、Bahasa Indonesia、हिन्दी）。
 
 ![中文版设置](setting-zh-CN.png)
 
@@ -55,7 +55,7 @@ Safari 不能直接装 zip。在装了 Xcode 的 Mac 上（App Store 免费下�
 ```
 extension/            Chrome 扩展本体（加载这个文件夹）
   manifest.json       MV3 配置，版本号只在这里写一次
-  _locales/           en、zh_CN 文案（chrome.i18n）
+  _locales/           15 种语言的文案（chrome.i18n）
   content.js/.css     播放器按钮、抓帧、预览浮层、提示
   background.js       快捷键转发 + captureVisibleTab 兜底截图
   popup.*, options.*  工具栏弹窗与设置页
@@ -67,7 +67,7 @@ CHANGELOG.md          更新日志（同时作为 GitHub Release 说明）
 
 ### 添加语言
 
-把 `extension/_locales/en` 复制为 `extension/_locales/<语言代码>`（如 `de`、`pt_BR`），翻译 `message` 的内容（保留 `$ARG1$` 这类占位符），然后运行 `node scripts/check.mjs`。缺少 key 或占位符不一致时会报错。
+把 `extension/_locales/en` 复制为 `extension/_locales/<语言代码>`（如 `nl`、`uk`），翻译 `message` 的内容（保留 `$ARG1$` 这类占位符），然后运行 `node scripts/check.mjs`。缺少 key 或占位符不一致时会报错。注意 `extension/lang.js` 是由 `_locales` 生成的（设置页的语言切换靠它），新增或修改语言后要重新生成。
 
 ### 发布新版本
 

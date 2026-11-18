@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-Capture the current YouTube video frame in one click, without pausing playback. Chrome MV3 (the source is also compatible with Safari Web Extensions). One build for every language: the interface follows your browser language (English and 简体中文 included).
+Capture the current YouTube video frame in one click, without pausing playback. Chrome MV3 (the source is also compatible with Safari Web Extensions). One build for every language: the interface follows your browser language (15 languages included: English, 简体中文, 繁體中文, 日本語, 한국어, Español, Français, Deutsch, Русский, Português (Brasil), Italiano, Tiếng Việt, ไทย, Bahasa Indonesia, हिन्दी).
 
 ![English settings](setting-en.png)
 
@@ -55,7 +55,7 @@ No paid developer account is needed for personal use on your own Mac. In Safari,
 ```
 extension/            the Chrome extension (load this folder)
   manifest.json       MV3 config — the single place the version number lives
-  _locales/           en, zh_CN message files (chrome.i18n)
+  _locales/           message files for 15 locales (chrome.i18n)
   content.js/.css     player button, frame capture, preview overlay, toasts
   background.js       shortcut forwarding + captureVisibleTab fallback
   popup.*, options.*  toolbar popup and settings page
@@ -67,7 +67,7 @@ CHANGELOG.md          release notes (also used as the GitHub release body)
 
 ### Adding a language
 
-Copy `extension/_locales/en` to `extension/_locales/<code>` (e.g. `de`, `pt_BR`), translate the `message` values (keep `$ARG1$`-style placeholders), then run `node scripts/check.mjs`. It fails if a key is missing or a placeholder differs.
+Copy `extension/_locales/en` to `extension/_locales/<code>` (e.g. `nl`, `uk`), translate the `message` values (keep `$ARG1$`-style placeholders), then run `node scripts/check.mjs`. It fails if a key is missing or a placeholder differs. Note `extension/lang.js` is generated from the `_locales` files (it powers the Settings language override), so regenerate it after adding or editing a locale.
 
 ### Releasing
 

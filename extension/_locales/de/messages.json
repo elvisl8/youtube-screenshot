@@ -1,0 +1,275 @@
+{
+  "extName": {
+    "message": "YouTube Screenshot - Video-Frames erfassen"
+  },
+  "extDescription": {
+    "message": "YouTube-Frames ohne Pause in nativer Auflösung erfassen. Als PNG/JPG/WebP speichern oder kopieren."
+  },
+  "actionTitle": {
+    "message": "Aktuellen YouTube-Videoframe erfassen"
+  },
+  "btnClose": {
+    "message": "✕ Schließen"
+  },
+  "btnSave": {
+    "message": "💾 Datei speichern"
+  },
+  "btnCopy": {
+    "message": "📋 In Zwischenablage kopieren"
+  },
+  "previewAlt": {
+    "message": "Screenshot-Vorschau"
+  },
+  "toastSaved": {
+    "message": "Gespeichert: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastCopied": {
+    "message": "In die Zwischenablage kopiert. Fügen Sie es in einen Chat oder ein Dokument ein."
+  },
+  "toastCopyDenied": {
+    "message": "Kopieren fehlgeschlagen (der Browser hat den Zugriff auf die Zwischenablage verweigert). Verwenden Sie stattdessen „Datei speichern“."
+  },
+  "toastNoVideo": {
+    "message": "Kein Video gefunden (auf einer YouTube-Wiedergabeseite verwenden)."
+  },
+  "toastNotReady": {
+    "message": "Das Video hat noch kein Bild geladen. Spielen Sie es kurz ab und versuchen Sie es erneut."
+  },
+  "metaNative": {
+    "message": "nativer Frame"
+  },
+  "metaSubs": {
+    "message": "mit Untertiteln"
+  },
+  "toastScreenshotSaved": {
+    "message": "Screenshot gespeichert: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastScreenshotCopied": {
+    "message": "Screenshot in die Zwischenablage kopiert ($ARG1$×$ARG2$)",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "toastAutoCopyFailed": {
+    "message": "Automatisches Kopieren fehlgeschlagen. Die Vorschau wurde geöffnet; klicken Sie auf „Datei speichern“."
+  },
+  "toastCaptureFailed": {
+    "message": "Erfassen fehlgeschlagen: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "btnTitle": {
+    "message": "Aktuellen Frame erfassen (YouTube Screenshot)"
+  },
+  "btnAria": {
+    "message": "Aktuellen Frame erfassen"
+  },
+  "loading": {
+    "message": "Wird geladen…"
+  },
+  "notSet": {
+    "message": "Nicht festgelegt"
+  },
+  "actPreview": {
+    "message": "Zuerst Vorschau"
+  },
+  "actDownload": {
+    "message": "Direkt speichern"
+  },
+  "actCopy": {
+    "message": "In Zwischenablage kopieren"
+  },
+  "popupTitle": {
+    "message": "YouTube Screenshot"
+  },
+  "popupSub": {
+    "message": "Klicken Sie auf einer YouTube-Wiedergabeseite auf die Schaltfläche unten, drücken Sie die Tastenkombination oder klicken Sie auf die Kamera-Schaltfläche unten rechts im Player, um den aktuellen Frame zu erfassen."
+  },
+  "popupCapture": {
+    "message": "Aktuellen Frame erfassen"
+  },
+  "popupShortcut": {
+    "message": "Tastenkombination"
+  },
+  "popupFormat": {
+    "message": "Bildformat"
+  },
+  "popupAfter": {
+    "message": "Nach dem Erfassen"
+  },
+  "popupChangeShortcut": {
+    "message": "Tastenkombination ändern"
+  },
+  "popupSettings": {
+    "message": "Einstellungen"
+  },
+  "popupNote": {
+    "message": "Saubere Frames haben die native Auflösung des Videos, ohne Player-Steuerung oder Untertitel. Um Untertitel einzubeziehen, stellen Sie den Erfassungsmodus in den Einstellungen auf „Was Sie sehen“ um."
+  },
+  "popupNotYouTubeOpen": {
+    "message": "Dies ist keine YouTube-Seite. Öffnen Sie zuerst ein Video."
+  },
+  "popupCapturing": {
+    "message": "Wird erfasst…"
+  },
+  "popupNotYouTube": {
+    "message": "Dies ist keine YouTube-Seite."
+  },
+  "popupCaptureFailed": {
+    "message": "Erfassen fehlgeschlagen: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupUnknownError": {
+    "message": "unbekannter Fehler"
+  },
+  "popupRequestFailed": {
+    "message": "Anfrage fehlgeschlagen: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPageTitle": {
+    "message": "YouTube Screenshot Einstellungen"
+  },
+  "optIntro": {
+    "message": "Alle drei Erfassungswege funktionieren gleich: die Kamera-Schaltfläche unten rechts im Player, die Tastenkombination und die Schaltfläche im Toolbar-Popup. Das Erfassen pausiert die Wiedergabe nicht; das Video läuft weiter und das Bild ist der Frame aus dem Moment des Drückens."
+  },
+  "optH1": {
+    "message": "1. Tastenkombination"
+  },
+  "optCurrentShortcut": {
+    "message": "Aktuelle Tastenkombination: "
+  },
+  "optShortcutNotSet": {
+    "message": "Nicht festgelegt (auf Chromes Seite für Tastenkombinationen festlegen)"
+  },
+  "optShortcutHelp": {
+    "message": "Chrome erlaubt es Erweiterungen nicht, Tastenkombinationen direkt zu ändern. Ändern Sie sie auf Chromes eigener Seite: Klicken Sie auf die Schaltfläche unten → suchen Sie „YouTube Screenshot“ → klicken Sie auf das Stiftsymbol → drücken Sie die neue Tastenkombination."
+  },
+  "optOpenShortcuts": {
+    "message": "Chromes Seite für Tastenkombinationen öffnen"
+  },
+  "optH2": {
+    "message": "2. Erfassungsmodus"
+  },
+  "optCleanTitle": {
+    "message": "Sauberer Frame (empfohlen)"
+  },
+  "optCleanDesc": {
+    "message": " — die native Auflösung des Videos (1080p/4K bleibt in Originalgröße), ohne Player-Steuerung, Untertitel oder Mauszeiger. Höchste Qualität."
+  },
+  "optCleanFallback": {
+    "message": "Wenn der Browser die Frame-Erfassung bei einem bestimmten Video blockiert, fällt er automatisch auf den Modus „Was Sie sehen“ zurück."
+  },
+  "optVisibleTitle": {
+    "message": "Was Sie sehen"
+  },
+  "optVisibleDesc": {
+    "message": " — erfasst, was tatsächlich auf dem Bildschirm ist, also inklusive Untertitel, aber die Auflösung ist durch die Fenstergröße begrenzt; am besten im Vollbild."
+  },
+  "optH3": {
+    "message": "3. Nach dem Erfassen"
+  },
+  "optPreviewDesc": {
+    "message": " — zeigt eine Vorschau, dann wählen Sie „Datei speichern“ oder „In Zwischenablage kopieren“. Nicht zufrieden? Schließen Sie sie und erfassen Sie erneut, ganz ohne überflüssige Dateien."
+  },
+  "optDownloadDesc": {
+    "message": " — lädt bei jedem Drücken direkt in den Download-Ordner Ihres Browsers herunter; gut, um viele Frames zu erfassen."
+  },
+  "optCopyDesc": {
+    "message": " — kopiert bei jedem Drücken, sodass Sie direkt in einen Chat, ein Dokument oder eine E-Mail einfügen können (schlägt das Kopieren fehl, öffnet sich stattdessen die Vorschau, damit das Bild nicht verloren geht)."
+  },
+  "optH4": {
+    "message": "4. Bildformat"
+  },
+  "optFmtPng": {
+    "message": "PNG (verlustfrei, größere Dateien)"
+  },
+  "optFmtJpeg": {
+    "message": "JPG (klein, universell)"
+  },
+  "optFmtWebp": {
+    "message": "WebP (am kleinsten)"
+  },
+  "optQuality": {
+    "message": "JPG-/WebP-Qualität: "
+  },
+  "optFileNamesLead": {
+    "message": "Dateinamen werden automatisch erzeugt: "
+  },
+  "optFilenamePattern": {
+    "message": "video-title_mm-ss_date-time.ext"
+  },
+  "optFileNamesEg": {
+    "message": ", z. B. "
+  },
+  "optFilenameExample": {
+    "message": "Some Tutorial_12-34_20261114_145501.png"
+  },
+  "optFileNamesTail": {
+    "message": ". Das Kopieren in die Zwischenablage verwendet immer PNG (eine Einschränkung der Browser-Zwischenablage), unabhängig vom hier gewählten Format."
+  },
+  "optSave": {
+    "message": "Einstellungen speichern"
+  },
+  "optSaved": {
+    "message": "✓ Gespeichert"
+  },
+  "optNotesH": {
+    "message": "Hinweise und Grenzen"
+  },
+  "optDrmTitle": {
+    "message": "DRM-geschützte Videos können nicht erfasst werden: "
+  },
+  "optDrmDesc": {
+    "message": "Bei DRM-Inhalten wie Netflix, Disney+ und kostenpflichtigen YouTube-Filmen schwärzt der Browser das Bild. Das ist eine branchenweite Einschränkung, die keine Erweiterung umgehen kann. Normale YouTube-Videos (einschließlich 4K) sind nicht betroffen."
+  },
+  "optSubsTitle": {
+    "message": "Untertitel: "
+  },
+  "optSubsDesc": {
+    "message": "Saubere Frames enthalten nie Untertitel (sie werden von der Webseite eingeblendet und sind kein Teil des Videobildes). Um Untertitel einzubeziehen, verwenden Sie „Was Sie sehen“, schalten Sie die Untertitel ein und erfassen Sie im Vollbild."
+  },
+  "optShorts": {
+    "message": "Shorts-Seiten funktionieren ebenfalls (native vertikale Auflösung)."
+  },
+  "optPaused": {
+    "message": "Sie können auch pausiert erfassen; Sie erhalten den Frame, der auf dem Bildschirm steht."
+  },
+  "optSafari": {
+    "message": "Safari: Diese Erweiterung ist Standard-Web-Extension-Quellcode und kann mit Xcodes safari-web-extension-converter umgewandelt werden; siehe den Safari-Abschnitt im Projekt-README."
+  },
+  "optLangH": {
+    "message": "Oberflächensprache"
+  },
+  "optLangAuto": {
+    "message": "Browsersprache folgen"
+  },
+  "optLangDesc": {
+    "message": "Wird sofort auf die Einstellungsseite, das Toolbar-Popup und Meldungen auf der Seite angewendet. Der auf Chromes Erweiterungsseite angezeigte Erweiterungsname folgt weiterhin der Browsersprache (eine Einschränkung von Chrome)."
+  }
+}

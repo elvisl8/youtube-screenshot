@@ -1,0 +1,275 @@
+{
+  "extName": {
+    "message": "YouTube Screenshot - 影片截圖"
+  },
+  "extDescription": {
+    "message": "一鍵擷取 YouTube 影格，原始解析度、不需暫停。可存成 PNG/JPG/WebP 或複製到剪貼簿。"
+  },
+  "actionTitle": {
+    "message": "擷取目前的 YouTube 影格"
+  },
+  "btnClose": {
+    "message": "✕ 關閉"
+  },
+  "btnSave": {
+    "message": "💾 儲存檔案"
+  },
+  "btnCopy": {
+    "message": "📋 複製到剪貼簿"
+  },
+  "previewAlt": {
+    "message": "截圖預覽"
+  },
+  "toastSaved": {
+    "message": "已儲存：$ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastCopied": {
+    "message": "已複製到剪貼簿，可貼到聊天或文件中。"
+  },
+  "toastCopyDenied": {
+    "message": "複製失敗（瀏覽器拒絕了剪貼簿存取），請改用「儲存檔案」。"
+  },
+  "toastNoVideo": {
+    "message": "找不到影片（請在 YouTube 播放頁面使用）。"
+  },
+  "toastNotReady": {
+    "message": "影片還沒載入畫面，先播放一下再試。"
+  },
+  "metaNative": {
+    "message": "原始影格"
+  },
+  "metaSubs": {
+    "message": "含字幕"
+  },
+  "toastScreenshotSaved": {
+    "message": "截圖已儲存：$ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastScreenshotCopied": {
+    "message": "截圖已複製到剪貼簿（$ARG1$×$ARG2$）",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "toastAutoCopyFailed": {
+    "message": "自動複製失敗，已開啟預覽，請點「儲存檔案」。"
+  },
+  "toastCaptureFailed": {
+    "message": "擷取失敗：$ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "btnTitle": {
+    "message": "擷取目前影格（YouTube Screenshot）"
+  },
+  "btnAria": {
+    "message": "擷取目前影格"
+  },
+  "loading": {
+    "message": "載入中…"
+  },
+  "notSet": {
+    "message": "未設定"
+  },
+  "actPreview": {
+    "message": "先預覽"
+  },
+  "actDownload": {
+    "message": "直接儲存"
+  },
+  "actCopy": {
+    "message": "複製到剪貼簿"
+  },
+  "popupTitle": {
+    "message": "YouTube Screenshot"
+  },
+  "popupSub": {
+    "message": "在 YouTube 播放頁面，點下方按鈕、按快捷鍵，或點播放器右下角的相機按鈕，即可擷取目前影格。"
+  },
+  "popupCapture": {
+    "message": "擷取目前影格"
+  },
+  "popupShortcut": {
+    "message": "快捷鍵"
+  },
+  "popupFormat": {
+    "message": "圖片格式"
+  },
+  "popupAfter": {
+    "message": "擷取後"
+  },
+  "popupChangeShortcut": {
+    "message": "更改快捷鍵"
+  },
+  "popupSettings": {
+    "message": "設定"
+  },
+  "popupNote": {
+    "message": "乾淨影格是影片的原始解析度，不含播放器控制項和字幕。要帶字幕，請到設定裡把擷取模式改成「所見即所得」。"
+  },
+  "popupNotYouTubeOpen": {
+    "message": "這不是 YouTube 頁面，請先打開一個影片。"
+  },
+  "popupCapturing": {
+    "message": "擷取中…"
+  },
+  "popupNotYouTube": {
+    "message": "這不是 YouTube 頁面。"
+  },
+  "popupCaptureFailed": {
+    "message": "擷取失敗：$ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupUnknownError": {
+    "message": "未知錯誤"
+  },
+  "popupRequestFailed": {
+    "message": "請求失敗：$ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPageTitle": {
+    "message": "YouTube Screenshot 設定"
+  },
+  "optIntro": {
+    "message": "三種擷取方式效果相同：播放器右下角的相機按鈕、鍵盤快捷鍵、工具列彈窗裡的按鈕。擷取不會暫停播放，影片照常播放，擷取的是你按下那一刻的影格。"
+  },
+  "optH1": {
+    "message": "1. 鍵盤快捷鍵"
+  },
+  "optCurrentShortcut": {
+    "message": "目前快捷鍵："
+  },
+  "optShortcutNotSet": {
+    "message": "未設定（請到 Chrome 的快捷鍵頁面設定）"
+  },
+  "optShortcutHelp": {
+    "message": "Chrome 不允許擴充功能直接更改快捷鍵，請在 Chrome 自己的頁面更改：點下方按鈕 → 找到「YouTube Screenshot」→ 點鉛筆圖示 → 按下新的組合鍵。"
+  },
+  "optOpenShortcuts": {
+    "message": "打開 Chrome 的快捷鍵頁面"
+  },
+  "optH2": {
+    "message": "2. 擷取模式"
+  },
+  "optCleanTitle": {
+    "message": "乾淨影格（推薦）"
+  },
+  "optCleanDesc": {
+    "message": " — 影片的原始解析度（1080p/4K 保持原尺寸），不含播放器控制項、字幕和滑鼠游標，畫質最高。"
+  },
+  "optCleanFallback": {
+    "message": "如果瀏覽器擋住了某個影片的影格擷取，會自動改用「所見即所得」模式。"
+  },
+  "optVisibleTitle": {
+    "message": "所見即所得"
+  },
+  "optVisibleDesc": {
+    "message": " — 擷取螢幕上實際看到的畫面，包含字幕，但解析度受視窗大小限制，全屏時效果最好。"
+  },
+  "optH3": {
+    "message": "3. 擷取之後"
+  },
+  "optPreviewDesc": {
+    "message": " — 先顯示預覽，再選「儲存檔案」或「複製到剪貼簿」。不滿意就關掉重截，不會產生廢檔。"
+  },
+  "optDownloadDesc": {
+    "message": " — 每次按下就直接下載到瀏覽器的下載資料夾，適合連續截很多張。"
+  },
+  "optCopyDesc": {
+    "message": " — 每次按下就複製，可直接貼到聊天、文件或郵件（複製失敗時會改開預覽，圖片不會丟）。"
+  },
+  "optH4": {
+    "message": "4. 圖片格式"
+  },
+  "optFmtPng": {
+    "message": "PNG（無損，檔案較大）"
+  },
+  "optFmtJpeg": {
+    "message": "JPG（檔案小，通用）"
+  },
+  "optFmtWebp": {
+    "message": "WebP（最小）"
+  },
+  "optQuality": {
+    "message": "JPG / WebP 畫質："
+  },
+  "optFileNamesLead": {
+    "message": "檔名自動產生："
+  },
+  "optFilenamePattern": {
+    "message": "video-title_mm-ss_date-time.ext"
+  },
+  "optFileNamesEg": {
+    "message": "，例如 "
+  },
+  "optFilenameExample": {
+    "message": "Some Tutorial_12-34_20261114_145501.png"
+  },
+  "optFileNamesTail": {
+    "message": "。複製到剪貼簿時一律使用 PNG（瀏覽器剪貼簿的限制），與這裡選的格式無關。"
+  },
+  "optSave": {
+    "message": "儲存設定"
+  },
+  "optSaved": {
+    "message": "✓ 已儲存"
+  },
+  "optNotesH": {
+    "message": "注意事項與限制"
+  },
+  "optDrmTitle": {
+    "message": "受 DRM 保護的影片無法擷取："
+  },
+  "optDrmDesc": {
+    "message": "Netflix、Disney+、YouTube 付費電影等 DRM 內容，瀏覽器會把畫面擋成黑屏，這是行業統一限制，任何插件都繞不過去。普通 YouTube 影片（包括 4K）不受影響。"
+  },
+  "optSubsTitle": {
+    "message": "字幕："
+  },
+  "optSubsDesc": {
+    "message": "乾淨影格裡本來就不含字幕（字幕是網頁疊上去的，不是影片畫面的一部分）；要帶字幕請用「所見即所得」並把字幕打開、全屏播放時截。"
+  },
+  "optShorts": {
+    "message": "Shorts 頁面同樣能截（直向原始解析度）。"
+  },
+  "optPaused": {
+    "message": "暫停狀態也能截，截的就是停住的那一幀。"
+  },
+  "optSafari": {
+    "message": "Safari 版：本插件是標準 Web Extension 原始碼，可用 Xcode 的 safari-web-extension-converter 轉換，步驟見專案 README 的 Safari 一節。"
+  },
+  "optLangH": {
+    "message": "介面語言"
+  },
+  "optLangAuto": {
+    "message": "跟隨瀏覽器語言"
+  },
+  "optLangDesc": {
+    "message": "立即生效，設定頁、工具欄彈窗和頁面內的文字都會切換。Chrome 擴充管理頁裡顯示的擴充名稱仍跟隨瀏覽器語言（這是 Chrome 的限制）。"
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "extName": {
+    "message": "YouTube Screenshot - वीडियो फ़्रेम कैप्चर"
+  },
+  "extDescription": {
+    "message": "एक क्लिक में YouTube फ़्रेम कैप्चर करें, बिना रोके, मूल रिज़ॉल्यूशन में. PNG/JPG/WebP में सहेजें या कॉपी करें."
+  },
+  "actionTitle": {
+    "message": "वर्तमान YouTube वीडियो फ़्रेम कैप्चर करें"
+  },
+  "btnClose": {
+    "message": "✕ बंद करें"
+  },
+  "btnSave": {
+    "message": "💾 फ़ाइल सहेजें"
+  },
+  "btnCopy": {
+    "message": "📋 क्लिपबोर्ड पर कॉपी करें"
+  },
+  "previewAlt": {
+    "message": "स्क्रीनशॉट पूर्वावलोकन"
+  },
+  "toastSaved": {
+    "message": "सहेजा गया: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastCopied": {
+    "message": "क्लिपबोर्ड पर कॉपी हो गया. इसे चैट या दस्तावेज़ में पेस्ट करें."
+  },
+  "toastCopyDenied": {
+    "message": "कॉपी विफल (ब्राउज़र ने क्लिपबोर्ड एक्सेस से इनकार किया). इसके बजाय \"फ़ाइल सहेजें\" का उपयोग करें."
+  },
+  "toastNoVideo": {
+    "message": "कोई वीडियो नहीं मिला (YouTube वॉच पेज पर उपयोग करें)."
+  },
+  "toastNotReady": {
+    "message": "वीडियो ने अभी तक कोई तस्वीर लोड नहीं की है. इसे कुछ देर चलाएँ, फिर फिर से प्रयास करें."
+  },
+  "metaNative": {
+    "message": "मूल फ़्रेम"
+  },
+  "metaSubs": {
+    "message": "उपशीर्षकों के साथ"
+  },
+  "toastScreenshotSaved": {
+    "message": "स्क्रीनशॉट सहेजा गया: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastScreenshotCopied": {
+    "message": "स्क्रीनशॉट क्लिपबोर्ड पर कॉपी हो गया ($ARG1$×$ARG2$)",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "toastAutoCopyFailed": {
+    "message": "स्वतः-कॉपी विफल. पूर्वावलोकन खुल गया है; \"फ़ाइल सहेजें\" पर क्लिक करें."
+  },
+  "toastCaptureFailed": {
+    "message": "कैप्चर विफल: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "btnTitle": {
+    "message": "वर्तमान फ़्रेम कैप्चर करें (YouTube Screenshot)"
+  },
+  "btnAria": {
+    "message": "वर्तमान फ़्रेम कैप्चर करें"
+  },
+  "loading": {
+    "message": "लोड हो रहा है…"
+  },
+  "notSet": {
+    "message": "सेट नहीं है"
+  },
+  "actPreview": {
+    "message": "पहले पूर्वावलोकन"
+  },
+  "actDownload": {
+    "message": "सीधे सहेजें"
+  },
+  "actCopy": {
+    "message": "क्लिपबोर्ड पर कॉपी करें"
+  },
+  "popupTitle": {
+    "message": "YouTube Screenshot"
+  },
+  "popupSub": {
+    "message": "YouTube वॉच पेज पर, वर्तमान फ़्रेम कैप्चर करने के लिए नीचे दिए गए बटन पर क्लिक करें, शॉर्टकट दबाएँ, या प्लेयर के नीचे दाईं ओर स्थित कैमरा बटन पर क्लिक करें."
+  },
+  "popupCapture": {
+    "message": "वर्तमान फ़्रेम कैप्चर करें"
+  },
+  "popupShortcut": {
+    "message": "शॉर्टकट"
+  },
+  "popupFormat": {
+    "message": "छवि प्रारूप"
+  },
+  "popupAfter": {
+    "message": "कैप्चर के बाद"
+  },
+  "popupChangeShortcut": {
+    "message": "शॉर्टकट बदलें"
+  },
+  "popupSettings": {
+    "message": "सेटिंग्स"
+  },
+  "popupNote": {
+    "message": "क्लीन फ़्रेम वीडियो का मूल रिज़ॉल्यूशन होते हैं, बिना प्लेयर नियंत्रण या उपशीर्षकों के. उपशीर्षक शामिल करने के लिए, सेटिंग्स में कैप्चर मोड को \"जो आप देखते हैं\" पर बदलें."
+  },
+  "popupNotYouTubeOpen": {
+    "message": "यह YouTube पेज नहीं है. पहले कोई वीडियो खोलें."
+  },
+  "popupCapturing": {
+    "message": "कैप्चर हो रहा है…"
+  },
+  "popupNotYouTube": {
+    "message": "यह YouTube पेज नहीं है."
+  },
+  "popupCaptureFailed": {
+    "message": "कैप्चर विफल: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupUnknownError": {
+    "message": "अज्ञात त्रुटि"
+  },
+  "popupRequestFailed": {
+    "message": "अनुरोध विफल: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPageTitle": {
+    "message": "YouTube Screenshot सेटिंग्स"
+  },
+  "optIntro": {
+    "message": "कैप्चर करने के तीनों तरीके एक समान काम करते हैं: प्लेयर के नीचे दाईं ओर का कैमरा बटन, कीबोर्ड शॉर्टकट, और टूलबार पॉपअप का बटन. कैप्चर करने से प्लेबैक नहीं रुकता; वीडियो चलता रहता है और छवि उस क्षण का फ़्रेम होती है जब आपने दबाया था."
+  },
+  "optH1": {
+    "message": "1. कीबोर्ड शॉर्टकट"
+  },
+  "optCurrentShortcut": {
+    "message": "वर्तमान शॉर्टकट: "
+  },
+  "optShortcutNotSet": {
+    "message": "सेट नहीं है (Chrome के शॉर्टकट पेज पर सेट करें)"
+  },
+  "optShortcutHelp": {
+    "message": "Chrome एक्सटेंशन को सीधे शॉर्टकट बदलने की अनुमति नहीं देता. इसे Chrome के अपने पेज पर बदलें: नीचे दिए गए बटन पर क्लिक करें → \"YouTube Screenshot\" खोजें → पेंसिल आइकन पर क्लिक करें → नई कुंजी संयोजन दबाएँ."
+  },
+  "optOpenShortcuts": {
+    "message": "Chrome का शॉर्टकट पेज खोलें"
+  },
+  "optH2": {
+    "message": "2. कैप्चर मोड"
+  },
+  "optCleanTitle": {
+    "message": "क्लीन फ़्रेम (अनुशंसित)"
+  },
+  "optCleanDesc": {
+    "message": " — वीडियो का मूल रिज़ॉल्यूशन (1080p/4K अपने मूल आकार पर रहता है), बिना प्लेयर नियंत्रण, उपशीर्षक या माउस कर्सर के. उच्चतम गुणवत्ता."
+  },
+  "optCleanFallback": {
+    "message": "यदि ब्राउज़र किसी विशेष वीडियो के लिए फ़्रेम कैप्चर को रोकता है, तो यह स्वचालित रूप से \"जो आप देखते हैं\" मोड पर चला जाता है."
+  },
+  "optVisibleTitle": {
+    "message": "जो आप देखते हैं"
+  },
+  "optVisibleDesc": {
+    "message": " — जो वास्तव में स्क्रीन पर है उसे कैप्चर करता है, इसलिए उपशीर्षक शामिल होते हैं, लेकिन रिज़ॉल्यूशन विंडो के आकार से सीमित होता है; पूर्ण स्क्रीन में सबसे अच्छा काम करता है."
+  },
+  "optH3": {
+    "message": "3. कैप्चर के बाद"
+  },
+  "optPreviewDesc": {
+    "message": " — एक पूर्वावलोकन दिखाता है, फिर आप \"फ़ाइल सहेजें\" या \"क्लिपबोर्ड पर कॉपी करें\" चुनते हैं. पसंद नहीं आया? इसे बंद करें और फिर से कैप्चर करें, कोई फ़ाइल बर्बाद नहीं होती."
+  },
+  "optDownloadDesc": {
+    "message": " — हर बार दबाने पर सीधे आपके ब्राउज़र के डाउनलोड फ़ोल्डर में डाउनलोड होता है; कई फ़्रेम कैप्चर करने के लिए अच्छा है."
+  },
+  "optCopyDesc": {
+    "message": " — हर बार दबाने पर कॉपी होता है ताकि आप सीधे चैट, दस्तावेज़ या ईमेल में पेस्ट कर सकें (यदि कॉपी विफल हो जाती है, तो इसके बजाय पूर्वावलोकन खुल जाता है, ताकि छवि न खोए)."
+  },
+  "optH4": {
+    "message": "4. छवि प्रारूप"
+  },
+  "optFmtPng": {
+    "message": "PNG (हानिरहित, बड़ी फ़ाइलें)"
+  },
+  "optFmtJpeg": {
+    "message": "JPG (छोटा, सार्वभौमिक)"
+  },
+  "optFmtWebp": {
+    "message": "WebP (सबसे छोटा)"
+  },
+  "optQuality": {
+    "message": "JPG / WebP गुणवत्ता: "
+  },
+  "optFileNamesLead": {
+    "message": "फ़ाइल नाम स्वचालित रूप से बनते हैं: "
+  },
+  "optFilenamePattern": {
+    "message": "video-title_mm-ss_date-time.ext"
+  },
+  "optFileNamesEg": {
+    "message": ", जैसे "
+  },
+  "optFilenameExample": {
+    "message": "Some Tutorial_12-34_20261114_145501.png"
+  },
+  "optFileNamesTail": {
+    "message": ". क्लिपबोर्ड पर कॉपी हमेशा PNG का उपयोग करती है (ब्राउज़र क्लिपबोर्ड की एक सीमा), यहाँ चुने गए प्रारूप की परवाह किए बिना."
+  },
+  "optSave": {
+    "message": "सेटिंग्स सहेजें"
+  },
+  "optSaved": {
+    "message": "✓ सहेजा गया"
+  },
+  "optNotesH": {
+    "message": "नोट्स और सीमाएँ"
+  },
+  "optDrmTitle": {
+    "message": "DRM-संरक्षित वीडियो कैप्चर नहीं किए जा सकते: "
+  },
+  "optDrmDesc": {
+    "message": "Netflix, Disney+ और सशुल्क YouTube फिल्मों जैसी DRM सामग्री के लिए, ब्राउज़र तस्वीर को काला कर देता है. यह उद्योग-व्यापी प्रतिबंध है जिसे कोई भी एक्सटेंशन नहीं टाल सकता. नियमित YouTube वीडियो (4K सहित) प्रभावित नहीं होते."
+  },
+  "optSubsTitle": {
+    "message": "उपशीर्षक: "
+  },
+  "optSubsDesc": {
+    "message": "क्लीन फ़्रेम में कभी उपशीर्षक नहीं होते (वे वेब पेज द्वारा ऊपर से लगाए जाते हैं और वीडियो तस्वीर का हिस्सा नहीं होते). उपशीर्षक शामिल करने के लिए, \"जो आप देखते हैं\" का उपयोग करें, उपशीर्षक चालू करें, और पूर्ण स्क्रीन में कैप्चर करें."
+  },
+  "optShorts": {
+    "message": "Shorts पेज भी काम करते हैं (मूल ऊर्ध्वाधर रिज़ॉल्यूशन)."
+  },
+  "optPaused": {
+    "message": "रुके हुए होने पर भी कैप्चर कर सकते हैं; आपको स्क्रीन पर मौजूद फ़्रेम मिलता है."
+  },
+  "optSafari": {
+    "message": "Safari: यह एक्सटेंशन मानक Web Extension स्रोत है और इसे Xcode के safari-web-extension-converter से परिवर्तित किया जा सकता है; प्रोजेक्ट README का Safari अनुभाग देखें."
+  },
+  "optLangH": {
+    "message": "इंटरफ़ेस भाषा"
+  },
+  "optLangAuto": {
+    "message": "ब्राउज़र भाषा का पालन करें"
+  },
+  "optLangDesc": {
+    "message": "सेटिंग्स पेज, टूलबार पॉपअप और पेज के अंदर के संदेशों पर तुरंत लागू होता है. Chrome के एक्सटेंशन पेज पर दिखाया गया एक्सटेंशन नाम फिर भी ब्राउज़र भाषा का पालन करता है (Chrome की एक सीमा)."
+  }
+}

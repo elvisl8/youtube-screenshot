@@ -1,0 +1,275 @@
+{
+  "extName": {
+    "message": "YouTube Screenshot - Tangkap Bingkai Video"
+  },
+  "extDescription": {
+    "message": "Tangkap bingkai YouTube sekali klik, resolusi asli, tanpa jeda. Simpan sebagai PNG/JPG/WebP atau salin ke papan klip."
+  },
+  "actionTitle": {
+    "message": "Tangkap bingkai video YouTube saat ini"
+  },
+  "btnClose": {
+    "message": "✕ Tutup"
+  },
+  "btnSave": {
+    "message": "💾 Simpan file"
+  },
+  "btnCopy": {
+    "message": "📋 Salin ke papan klip"
+  },
+  "previewAlt": {
+    "message": "pratinjau tangkapan layar"
+  },
+  "toastSaved": {
+    "message": "Tersimpan: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastCopied": {
+    "message": "Disalin ke papan klip. Tempelkan ke obrolan atau dokumen."
+  },
+  "toastCopyDenied": {
+    "message": "Penyalinan gagal (browser menolak akses papan klip). Gunakan \"Simpan file\" sebagai gantinya."
+  },
+  "toastNoVideo": {
+    "message": "Tidak ada video ditemukan (gunakan di halaman tonton YouTube)."
+  },
+  "toastNotReady": {
+    "message": "Video belum memuat gambar. Putar sebentar, lalu coba lagi."
+  },
+  "metaNative": {
+    "message": "bingkai asli"
+  },
+  "metaSubs": {
+    "message": "dengan subtitel"
+  },
+  "toastScreenshotSaved": {
+    "message": "Tangkapan layar tersimpan: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "toastScreenshotCopied": {
+    "message": "Tangkapan layar disalin ke papan klip ($ARG1$×$ARG2$)",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      },
+      "arg2": {
+        "content": "$2"
+      }
+    }
+  },
+  "toastAutoCopyFailed": {
+    "message": "Penyalinan otomatis gagal. Pratinjau dibuka; klik \"Simpan file\"."
+  },
+  "toastCaptureFailed": {
+    "message": "Penangkapan gagal: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "btnTitle": {
+    "message": "Tangkap bingkai saat ini (YouTube Screenshot)"
+  },
+  "btnAria": {
+    "message": "Tangkap bingkai saat ini"
+  },
+  "loading": {
+    "message": "Memuat…"
+  },
+  "notSet": {
+    "message": "Belum diatur"
+  },
+  "actPreview": {
+    "message": "Pratinjau dulu"
+  },
+  "actDownload": {
+    "message": "Simpan langsung"
+  },
+  "actCopy": {
+    "message": "Salin ke papan klip"
+  },
+  "popupTitle": {
+    "message": "YouTube Screenshot"
+  },
+  "popupSub": {
+    "message": "Di halaman tonton YouTube, klik tombol di bawah, tekan pintasan, atau klik tombol kamera di kanan bawah pemutar untuk menangkap bingkai saat ini."
+  },
+  "popupCapture": {
+    "message": "Tangkap bingkai saat ini"
+  },
+  "popupShortcut": {
+    "message": "Pintasan"
+  },
+  "popupFormat": {
+    "message": "Format gambar"
+  },
+  "popupAfter": {
+    "message": "Setelah menangkap"
+  },
+  "popupChangeShortcut": {
+    "message": "Ubah pintasan"
+  },
+  "popupSettings": {
+    "message": "Setelan"
+  },
+  "popupNote": {
+    "message": "Bingkai bersih adalah resolusi asli video, tanpa kontrol pemutar atau subtitel. Untuk menyertakan subtitel, ubah mode penangkapan menjadi \"Yang Anda lihat\" di Setelan."
+  },
+  "popupNotYouTubeOpen": {
+    "message": "Ini bukan halaman YouTube. Buka video terlebih dahulu."
+  },
+  "popupCapturing": {
+    "message": "Menangkap…"
+  },
+  "popupNotYouTube": {
+    "message": "Ini bukan halaman YouTube."
+  },
+  "popupCaptureFailed": {
+    "message": "Penangkapan gagal: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "popupUnknownError": {
+    "message": "kesalahan tidak dikenal"
+  },
+  "popupRequestFailed": {
+    "message": "Permintaan gagal: $ARG1$",
+    "placeholders": {
+      "arg1": {
+        "content": "$1"
+      }
+    }
+  },
+  "optPageTitle": {
+    "message": "Setelan YouTube Screenshot"
+  },
+  "optIntro": {
+    "message": "Ketiga cara menangkap bekerja dengan cara yang sama: tombol kamera di kanan bawah pemutar, pintasan keyboard, dan tombol di popup toolbar. Menangkap tidak menjeda pemutaran; video terus berjalan dan gambarnya adalah bingkai pada saat Anda menekan."
+  },
+  "optH1": {
+    "message": "1. Pintasan keyboard"
+  },
+  "optCurrentShortcut": {
+    "message": "Pintasan saat ini: "
+  },
+  "optShortcutNotSet": {
+    "message": "Belum diatur (atur di halaman pintasan Chrome)"
+  },
+  "optShortcutHelp": {
+    "message": "Chrome tidak mengizinkan ekstensi mengubah pintasan secara langsung. Ubahlah di halaman Chrome sendiri: klik tombol di bawah → temukan \"YouTube Screenshot\" → klik ikon pensil → tekan kombinasi tombol baru."
+  },
+  "optOpenShortcuts": {
+    "message": "Buka halaman pintasan Chrome"
+  },
+  "optH2": {
+    "message": "2. Mode penangkapan"
+  },
+  "optCleanTitle": {
+    "message": "Bingkai bersih (disarankan)"
+  },
+  "optCleanDesc": {
+    "message": " — resolusi asli video (1080p/4K tetap pada ukuran aslinya), tanpa kontrol pemutar, subtitel, atau kursor mouse. Kualitas tertinggi."
+  },
+  "optCleanFallback": {
+    "message": "Jika browser memblokir penangkapan bingkai untuk video tertentu, mode otomatis beralih ke \"Yang Anda lihat\"."
+  },
+  "optVisibleTitle": {
+    "message": "Yang Anda lihat"
+  },
+  "optVisibleDesc": {
+    "message": " — menangkap apa yang benar-benar ada di layar, jadi subtitel disertakan, tetapi resolusi dibatasi oleh ukuran jendela; paling baik dalam layar penuh."
+  },
+  "optH3": {
+    "message": "3. Setelah menangkap"
+  },
+  "optPreviewDesc": {
+    "message": " — menampilkan pratinjau, lalu Anda memilih \"Simpan file\" atau \"Salin ke papan klip\". Tidak puas? Tutup dan tangkap lagi, tanpa file terbuang."
+  },
+  "optDownloadDesc": {
+    "message": " — mengunduh langsung ke folder unduhan browser Anda setiap kali ditekan; cocok untuk menangkap banyak bingkai."
+  },
+  "optCopyDesc": {
+    "message": " — menyalin setiap kali ditekan sehingga Anda dapat menempel langsung ke obrolan, dokumen, atau email (jika penyalinan gagal, pratinjau akan dibuka sebagai gantinya, agar gambar tidak hilang)."
+  },
+  "optH4": {
+    "message": "4. Format gambar"
+  },
+  "optFmtPng": {
+    "message": "PNG (tanpa kehilangan kualitas, file lebih besar)"
+  },
+  "optFmtJpeg": {
+    "message": "JPG (kecil, universal)"
+  },
+  "optFmtWebp": {
+    "message": "WebP (paling kecil)"
+  },
+  "optQuality": {
+    "message": "Kualitas JPG / WebP: "
+  },
+  "optFileNamesLead": {
+    "message": "Nama file dibuat secara otomatis: "
+  },
+  "optFilenamePattern": {
+    "message": "video-title_mm-ss_date-time.ext"
+  },
+  "optFileNamesEg": {
+    "message": ", mis. "
+  },
+  "optFilenameExample": {
+    "message": "Some Tutorial_12-34_20261114_145501.png"
+  },
+  "optFileNamesTail": {
+    "message": ". Penyalinan ke papan klip selalu menggunakan PNG (batasan papan klip browser), apa pun format yang dipilih di sini."
+  },
+  "optSave": {
+    "message": "Simpan setelan"
+  },
+  "optSaved": {
+    "message": "✓ Tersimpan"
+  },
+  "optNotesH": {
+    "message": "Catatan dan batasan"
+  },
+  "optDrmTitle": {
+    "message": "Video yang dilindungi DRM tidak dapat ditangkap: "
+  },
+  "optDrmDesc": {
+    "message": "untuk konten DRM seperti Netflix, Disney+, dan film berbayar YouTube, browser menghitamkan gambar. Ini adalah batasan di seluruh industri yang tidak dapat dilewati ekstensi mana pun. Video YouTube biasa (termasuk 4K) tidak terpengaruh."
+  },
+  "optSubsTitle": {
+    "message": "Subtitel: "
+  },
+  "optSubsDesc": {
+    "message": "bingkai bersih tidak pernah berisi subtitel (subtitel ditampilkan oleh halaman web dan bukan bagian dari gambar video). Untuk menyertakan subtitel, gunakan \"Yang Anda lihat\", aktifkan subtitel, dan tangkap dalam layar penuh."
+  },
+  "optShorts": {
+    "message": "Halaman Shorts juga berfungsi (resolusi vertikal asli)."
+  },
+  "optPaused": {
+    "message": "Anda dapat menangkap saat dijeda; Anda mendapatkan bingkai yang ada di layar."
+  },
+  "optSafari": {
+    "message": "Safari: ekstensi ini adalah kode sumber Web Extension standar dan dapat dikonversi dengan safari-web-extension-converter dari Xcode; lihat bagian Safari di README proyek."
+  },
+  "optLangH": {
+    "message": "Bahasa antarmuka"
+  },
+  "optLangAuto": {
+    "message": "Ikuti bahasa browser"
+  },
+  "optLangDesc": {
+    "message": "Berlaku segera pada halaman setelan, popup toolbar, dan pesan di halaman. Nama ekstensi yang ditampilkan di halaman ekstensi Chrome tetap mengikuti bahasa browser (batasan Chrome)."
+  }
+}
